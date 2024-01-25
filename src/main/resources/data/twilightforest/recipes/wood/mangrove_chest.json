@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        },
+        {
+          "type": "twilightforest:true"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "#": {
+            "item": "twilightforest:mangrove_planks"
+          },
+          "C": {
+            "tag": "forge:chests/wooden"
+          }
+        },
+        "pattern": [
+          "###",
+          "#C#",
+          "###"
+        ],
+        "result": {
+          "item": "twilightforest:mangrove_chest"
+        }
+      }
+    }
+  ]
+}
