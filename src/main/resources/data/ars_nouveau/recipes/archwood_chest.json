@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        },
+        {
+          "type": "ars_nouveau:true"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "replace": true,
+        "category": "misc",
+        "key": {
+          "x": {
+            "item": "ars_nouveau:archwood_planks"
+          },
+          "y": {
+            "tag": "forge:chests/wooden"
+          }
+        },
+        "pattern": [
+          "xxx",
+          "xyx",
+          "xxx"
+        ],
+        "result": {
+          "item": "ars_nouveau:archwood_chest"
+        }
+      }
+    }
+  ]
+}

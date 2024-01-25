@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        },
+        {
+          "type": "ars_nouveau:true"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "replace": true,
+        "category": "building",
+        "ingredients": [
+          {
+            "tag": "forge:logs/archwood"
+          }
+        ],
+        "result": {
+          "count": 2,
+          "item": "ars_nouveau:archwood_planks"
+        }
+      }
+    }
+  ]
+}

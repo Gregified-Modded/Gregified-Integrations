@@ -1,0 +1,35 @@
+{
+   "type": "forge:conditional",
+
+   "recipes": [
+      {
+         "conditions": [
+            {
+               "type": "forge:true"
+            },
+            {
+               "type": "ars_nouveau:true"
+            }
+         ],
+         "recipe": {
+            "type":"minecraft:crafting_shaped",
+            "replace": true,
+            "pattern":[
+               "sP"
+            ],
+            "key":{
+               "P":{
+                  "item":"ars_nouveau:archwood_pressure_plate"
+               },
+               "s":{
+                  "tag":"forge:tools/saws"
+               }
+            },
+            "result":{
+               "item":"ars_nouveau:archwood_button",
+               "count":6
+            }
+         }
+      }
+   ]
+}
