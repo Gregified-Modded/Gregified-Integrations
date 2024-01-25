@@ -1,0 +1,45 @@
+{
+   "type": "forge:conditional",
+
+   "recipes": [
+      {
+         "conditions": [
+            {
+               "type": "forge:true"
+            },
+            {
+               "type": "twilightforest:true"
+            }
+         ],
+         "recipe": {
+            "type":"minecraft:crafting_shaped",
+            "replace": true,
+            "pattern":[
+               "PHP",
+               "PkP",
+               "SSS"
+            ],
+            "key":{
+               "P":{
+                  "item":"twilightforest:twilight_oak_planks"
+               },
+               "S":{
+                  "item":"twilightforest:twilight_oak_slab"
+               },
+               "H":{
+                  "type":"forge:nbt",
+                  "item":"minecraft:wooden_shovel",
+                  "count":1,
+                  "nbt":"{Damage:0}"
+               },
+               "k":{
+                  "tag":"forge:tools/knives"
+               }
+            },
+            "result":{
+               "item":"twilightforest:twilight_oak_boat"
+            }
+         }
+      }
+   ]
+}
