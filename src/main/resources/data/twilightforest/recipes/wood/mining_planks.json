@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        },
+        {
+          "type": "twilightforest:true"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "replace": true,
+        "category": "building",
+        "ingredients": [
+          {
+            "tag": "twilightforest:mining_logs"
+          }
+        ],
+        "result": {
+          "count": 2,
+          "item": "twilightforest:mining_planks"
+        }
+      }
+    }
+  ]
+}
