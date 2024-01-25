@@ -1,0 +1,46 @@
+{
+   "type": "forge:conditional",
+
+   "recipes": [
+      {
+         "conditions": [
+            {
+               "type": "forge:true"
+            },
+            {
+               "type": "twilightforest:true"
+            }
+         ],
+         "recipe": {
+            "type":"minecraft:crafting_shaped",
+            "replace": true,
+            "pattern":[
+               "SrS",
+               "LCL",
+               "SdS"
+            ],
+            "key":{
+               "S":{
+                  "tag":"forge:bolts/wood"
+               },
+               "L":{
+                  "item":"twilightforest:mangrove_slab"
+               },
+               "C":{
+                  "tag":"forge:springs/iron"
+               },
+               "r":{
+                  "tag":"forge:tools/mallets"
+               },
+               "d":{
+                  "tag":"forge:tools/screwdrivers"
+               }
+            },
+            "result":{
+               "item":"twilightforest:mangrove_pressure_plate",
+               "count":2
+            }
+         }
+      }
+   ]
+}
