@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        },
+        {
+          "type": "twilightforest:true"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "#": {
+            "item": "twilightforest:mining_planks"
+          },
+          "S": {
+            "tag": "forge:rods/wooden"
+          }
+        },
+        "pattern": [
+          "#S#",
+          "#S#",
+          "#S#"
+        ],
+        "result": {
+          "item": "twilightforest:mining_fence"
+        }
+      }
+    }
+  ]
+}
