@@ -1,0 +1,48 @@
+{
+   "type": "forge:conditional",
+
+   "recipes": [
+      {
+         "conditions": [
+            {
+               "type": "forge:true"
+            },
+            {
+               "type": "twilightforest:true"
+            }
+         ],
+         "recipe": {
+            "type":"minecraft:crafting_shaped",
+            "replace": true,
+            "pattern":[
+               "PTd",
+               "PRS",
+               "PPs"
+            ],
+            "key":{
+               "P":{
+                  "item":"twilightforest:canopy_planks"
+               },
+               "T":{
+                  "item":"twilightforest:canopy_trapdoor"
+               },
+               "R":{
+                  "tag":"forge:rings/iron"
+               },
+               "S":{
+                  "tag":"forge:screws/iron"
+               },
+               "s":{
+                  "tag":"forge:tools/saws"
+               },
+               "d":{
+                  "tag":"forge:tools/screwdrivers"
+               }
+            },
+            "result":{
+               "item":"twilightforest:canopy_door"
+            }
+         }
+      }
+   ]
+}
