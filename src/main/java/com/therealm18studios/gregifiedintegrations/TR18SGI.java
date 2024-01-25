@@ -1,4 +1,4 @@
-package com.therealm18studios.tr18sgi;
+package com.therealm18studios.gregifiedintegrations;
 
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
