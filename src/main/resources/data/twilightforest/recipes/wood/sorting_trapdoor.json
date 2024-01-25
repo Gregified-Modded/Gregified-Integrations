@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        },
+        {
+          "type": "twilightforest:true"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "replace": true,
+        "category": "redstone",
+        "key": {
+          "S": {
+            "item": "minecraft:stick"
+          },
+          "P": {
+            "item": "twilightforest:sorting_slab"
+          }
+        },
+        "pattern": [
+          "PSP",
+          "SSS",
+          "PSP"
+        ],
+        "result": {
+          "count": 1,
+          "item": "twilightforest:sorting_trapdoor"
+        }
+      }
+    }
+  ]
+}
