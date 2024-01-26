@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "biomesoplenty"
+        }
+      ],
+      "recipe": {
+        "type":"minecraft:crafting_shaped",
+        "replace": true,
+        "pattern":[
+          "sP"
+        ],
+        "key":{
+          "P":{
+            "item":"biomesoplenty:hellbark_pressure_plate"
+          },
+          "s":{
+            "tag":"forge:tools/saws"
+          }
+        },
+        "result":{
+          "item":"biomesoplenty:hellbark_button",
+          "count":6
+        }
+      }
+    }
+  ]
+}
