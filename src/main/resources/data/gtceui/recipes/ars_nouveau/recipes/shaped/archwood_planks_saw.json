@@ -12,27 +12,20 @@
          "recipe": {
             "type":"minecraft:crafting_shaped",
             "pattern":[
-               "IdI",
-               "SPS",
-               "SPS"
+               "s",
+               "L"
             ],
             "key":{
-               "P":{
-                  "item":"ars_nouveau:archwood_planks"
+               "L":{
+                  "item":"ars_nouveau:archwood_log"
                },
-               "S":{
-                  "tag":"forge:rods/wood"
-               },
-               "I":{
-                  "tag":"forge:screws/iron"
-               },
-               "d":{
-                  "tag":"forge:tools/screwdrivers"
+               "s":{
+                  "tag":"forge:tools/saws"
                }
             },
             "result":{
-               "item":"ars_nouveau:archwood_fence_gate",
-               "count":2
+               "item":"ars_nouveau:archwood_planks",
+               "count":4
             }
          }
       }

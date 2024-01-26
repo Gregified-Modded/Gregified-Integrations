@@ -12,27 +12,20 @@
          "recipe": {
             "type":"minecraft:crafting_shaped",
             "pattern":[
-               "IdI",
-               "SPS",
-               "SPS"
+               "s",
+               "L"
             ],
             "key":{
-               "P":{
-                  "item":"biomesoplenty:palm_planks"
+               "L":{
+                  "item":"biomesoplenty:palm_log"
                },
-               "S":{
-                  "tag":"forge:rods/wood"
-               },
-               "I":{
-                  "tag":"forge:screws/iron"
-               },
-               "d":{
-                  "tag":"forge:tools/screwdrivers"
+               "s":{
+                  "tag":"forge:tools/saws"
                }
             },
             "result":{
-               "item":"biomesoplenty:palm_fence_gate",
-               "count":2
+               "item":"biomesoplenty:palm_planks",
+               "count":4
             }
          }
       }

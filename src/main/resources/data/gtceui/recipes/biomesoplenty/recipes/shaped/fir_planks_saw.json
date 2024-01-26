@@ -12,27 +12,20 @@
          "recipe": {
             "type":"minecraft:crafting_shaped",
             "pattern":[
-               "IdI",
-               "SPS",
-               "SPS"
+               "s",
+               "L"
             ],
             "key":{
-               "P":{
-                  "item":"biomesoplenty:fir_planks"
+               "L":{
+                  "item":"biomesoplenty:fir_log"
                },
-               "S":{
-                  "tag":"forge:rods/wood"
-               },
-               "I":{
-                  "tag":"forge:screws/iron"
-               },
-               "d":{
-                  "tag":"forge:tools/screwdrivers"
+               "s":{
+                  "tag":"forge:tools/saws"
                }
             },
             "result":{
-               "item":"biomesoplenty:fir_fence_gate",
-               "count":2
+               "item":"biomesoplenty:fir_planks",
+               "count":4
             }
          }
       }

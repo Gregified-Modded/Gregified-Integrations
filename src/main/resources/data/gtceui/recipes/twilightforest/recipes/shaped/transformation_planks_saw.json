@@ -12,27 +12,20 @@
          "recipe": {
             "type":"minecraft:crafting_shaped",
             "pattern":[
-               "IdI",
-               "SPS",
-               "SPS"
+               "s",
+               "L"
             ],
             "key":{
-               "P":{
-                  "item":"twilightforest:transformation_planks"
+               "L":{
+                  "item":"twilightforest:transformation_log"
                },
-               "S":{
-                  "tag":"forge:rods/wood"
-               },
-               "I":{
-                  "tag":"forge:screws/iron"
-               },
-               "d":{
-                  "tag":"forge:tools/screwdrivers"
+               "s":{
+                  "tag":"forge:tools/saws"
                }
             },
             "result":{
-               "item":"twilightforest:transformation_fence_gate",
-               "count":2
+               "item":"twilightforest:transformation_planks",
+               "count":4
             }
          }
       }
