@@ -1,13 +1,13 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
-license = "MIT"
+license = "Apache License 2.0"
 
 [[mods]]
-modId = "tr18sgi"
-version = "1.0.4"
-displayName = "Gregified Integrations"
+modId = "${mod_id}"
+version = "${version}"
+displayName = "${mod_name}"
 logoFile="logo.png"
-authors = "The Realm 18 Studios"
+authors = "The Realm 18 Studios, TheRealM18"
 
 description = ''''''
 [[dependencies.tr18sgi]]
