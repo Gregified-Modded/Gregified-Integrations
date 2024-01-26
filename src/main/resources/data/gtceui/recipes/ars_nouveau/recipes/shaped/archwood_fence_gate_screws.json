@@ -1,0 +1,40 @@
+{
+   "type": "forge:conditional",
+
+   "recipes": [
+      {
+         "conditions": [
+            {
+               "type": "forge:mod_loaded",
+               "modid": "ars_nouveau"
+            }
+         ],
+         "recipe": {
+            "type":"minecraft:crafting_shaped",
+            "pattern":[
+               "IdI",
+               "SPS",
+               "SPS"
+            ],
+            "key":{
+               "P":{
+                  "item":"ars_nouveau:archwood_planks"
+               },
+               "S":{
+                  "tag":"forge:rods/wood"
+               },
+               "I":{
+                  "tag":"forge:screws/iron"
+               },
+               "d":{
+                  "tag":"forge:tools/screwdrivers"
+               }
+            },
+            "result":{
+               "item":"ars_nouveau:archwood_fence_gate",
+               "count":2
+            }
+         }
+      }
+   ]
+}
