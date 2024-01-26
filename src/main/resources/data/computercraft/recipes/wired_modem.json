@@ -27,7 +27,7 @@
         },
         "result": {
 		  "count": 4,
-          "item": "computercraft:cable"
+          "item": "computercraft:wired_modem"
         }
       }
     }
