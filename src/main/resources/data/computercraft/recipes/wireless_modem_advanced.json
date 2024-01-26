@@ -1,0 +1,35 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "computercraft"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "replace": true,
+        "pattern":[
+          "CCC",
+          "CPC",
+          "CCC"
+        ],
+        "key":{
+          "P":{
+            "item":"minecraft:ender_eye"
+          },
+          "C":{
+            "item":"gtceu:double_tantalum_carbide_plate"
+          }
+        },
+        "result": {
+		  "count": 4,
+          "item": "computercraft:wireless_modem_advanced"
+        }
+      }
+    }
+  ]
+}

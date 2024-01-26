@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "computercraft"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "replace": true,
+        "pattern":[
+          "CPC",
+          "CMC",
+          "CMC"
+        ],
+        "key":{
+          "M":{
+            "item":"gtceu:computer_monitor_cover"
+          },
+          "P":{
+            "item":"computercraft:wireless_modem_advanced"
+          },
+          "C":{
+            "item":"gtceu:double_tantalum_carbide_plate"
+          }
+        },
+        "result": {
+          "item": "computercraft:pocket_computer_advanced"
+        }
+      }
+    }
+  ]
+}

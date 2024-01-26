@@ -1,0 +1,35 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "computercraft"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "replace": true,
+        "pattern":[
+          "CCC",
+          "CPC",
+          "CCC"
+        ],
+        "key":{
+          "P":{
+            "item":"gtceu:fine_red_alloy_wire"
+          },
+          "C":{
+            "item":"gtceu:double_tungsten_plate"
+          }
+        },
+        "result": {
+		  "count": 4,
+          "item": "computercraft:cable"
+        }
+      }
+    }
+  ]
+}

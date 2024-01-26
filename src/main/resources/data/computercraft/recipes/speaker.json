@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {"tag": "forge:stone"},
+    "N": {"item": "minecraft:note_block"},
+    "R": {"tag": "forge:dusts/redstone"}
+  },
+  "pattern": ["###", "#N#", "#R#"],
+  "result": {"item": "computercraft:speaker"},
+  "show_notification": true
+}
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "computercraft"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "replace": true,
+        "pattern":[
+          "CMC",
+          "CPC",
+          "CPC"
+        ],
+        "key":{
+          "M":{
+            "item": "minecraft:note_block"
+          },
+          "C":{
+            "item":"gtceu:double_black_steel_plate"
+          },
+          "P":{
+            "tag":"gtceu:circuits/iv"
+          }
+        },
+        "result": {
+          "item": "computercraft:printer"
+        }
+      }
+    }
+  ]
+}

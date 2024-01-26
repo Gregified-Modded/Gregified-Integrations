@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "computercraft"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "replace": true,
+        "pattern":[
+          "CCC",
+          "CPC",
+          "CCC"
+        ],
+        "key":{
+          "P":{
+            "item":"gtceu:computer_monitor_cover"
+          },
+          "C":{
+            "item":"gtceu:double_black_steel_plate"
+          }
+        },
+        "result": {
+          "item": "computercraft:monitor_advanced"
+        }
+      }
+    }
+  ]
+}

@@ -51,3 +51,10 @@ mandatory = false
 versionRange = "[18.0.0,)"
 ordering = "AFTER"
 side = "SERVER"
+
+[[dependencies.tr18sgi]]
+modId = "computercraft"
+mandatory = false
+versionRange = "[47.1.0,)"
+ordering = "AFTER"
+side = "SERVER"

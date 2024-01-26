@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "computercraft"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "replace": true,
+        "pattern":[
+          "CPC",
+          "CMC",
+          "CMC"
+        ],
+        "key":{
+          "M":{
+            "item":"minecraft:air"
+          },
+          "P":{
+            "item":"minecraft:air"
+          },
+          "C":{
+            "item":"minecraft:air"
+          }
+        },
+        "result": {
+          "item": "minecraft:air"
+        }
+      }
+    }
+  ]
+}
