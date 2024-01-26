@@ -5,10 +5,8 @@
       {
          "conditions": [
             {
-               "type": "forge:true"
-            },
-            {
-               "type": "twilightforest:true"
+               "type": "forge:mod_loaded",
+               "modid": "twilightforest"
             }
          ],
          "recipe": {

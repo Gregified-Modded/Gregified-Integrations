@@ -5,10 +5,8 @@
     {
       "conditions": [
         {
-          "type": "forge:true"
-        },
-        {
-          "type": "ars_nouveau:true"
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
         }
       ],
       "recipe": {

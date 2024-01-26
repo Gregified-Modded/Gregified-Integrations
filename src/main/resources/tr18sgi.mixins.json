@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.therealm18studios.gregifiedintegrations",
+  "package": "com.therealm18studios.gregifiedintegrations.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
