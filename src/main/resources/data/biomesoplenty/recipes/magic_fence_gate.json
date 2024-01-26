@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "biomesoplenty"
+        }
+      ],
+      "recipe": {
+        "type":"minecraft:crafting_shaped",
+        "replace": true,
+        "pattern":[
+          "F F",
+          "SPS",
+          "SPS"
+        ],
+        "key":{
+          "P":{
+            "item":"biomesoplenty:magic_planks"
+          },
+          "S":{
+            "tag":"forge:rods/wood"
+          },
+          "F":{
+            "item":"minecraft:flint"
+          }
+        },
+        "result":{
+          "item":"biomesoplenty:magic_fence_gate"
+        }
+      }
+    }
+  ]
+}
