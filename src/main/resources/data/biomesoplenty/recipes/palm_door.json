@@ -1,0 +1,46 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "biomesoplenty"
+        }
+      ],
+      "recipe": {
+        "type":"minecraft:crafting_shaped",
+        "replace": true,
+        "pattern":[
+          "PTd",
+          "PRS",
+          "PPs"
+        ],
+        "key":{
+          "P":{
+            "item":"biomesoplenty:palm_planks"
+          },
+          "T":{
+            "item":"biomesoplenty:palm_trapdoor"
+          },
+          "R":{
+            "tag":"forge:rings/iron"
+          },
+          "S":{
+            "tag":"forge:screws/iron"
+          },
+          "s":{
+            "tag":"forge:tools/saws"
+          },
+          "d":{
+            "tag":"forge:tools/screwdrivers"
+          }
+        },
+        "result":{
+          "item":"biomesoplenty:palm_door"
+        }
+      }
+    }
+  ]
+}
