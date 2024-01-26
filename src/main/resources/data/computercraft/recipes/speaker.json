@@ -1,16 +1,4 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "#": {"tag": "forge:stone"},
-    "N": {"item": "minecraft:note_block"},
-    "R": {"tag": "forge:dusts/redstone"}
-  },
-  "pattern": ["###", "#N#", "#R#"],
-  "result": {"item": "computercraft:speaker"},
-  "show_notification": true
-}
-{
   "type": "forge:conditional",
 
   "recipes": [
@@ -41,7 +29,7 @@
           }
         },
         "result": {
-          "item": "computercraft:printer"
+          "item": "computercraft:speaker"
         }
       }
     }

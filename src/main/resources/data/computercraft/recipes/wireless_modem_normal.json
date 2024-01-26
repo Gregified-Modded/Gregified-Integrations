@@ -26,8 +26,7 @@
           }
         },
         "result": {
-		  "count": 4,
-          "item": "computercraft:wireless_modem_advanced"
+          "item": "computercraft:wireless_modem_normal"
         }
       }
     }
