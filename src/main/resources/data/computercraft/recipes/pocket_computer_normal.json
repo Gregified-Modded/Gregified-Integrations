@@ -15,11 +15,14 @@
         "pattern":[
           "CPC",
           "CMC",
-          "CMC"
+          "CSC"
         ],
         "key":{
           "M":{
             "item":"gtceu:computer_monitor_cover"
+          },
+          "S":{
+            "tag":"gtceu:circuits/iv"
           },
           "P":{
             "item":"computercraft:wireless_modem_normal"
