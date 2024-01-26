@@ -4,7 +4,7 @@ license = "MIT"
 
 [[mods]]
 modId = "tr18sgi"
-version = "1.0.3"
+version = "1.0.4"
 displayName = "Gregified Integrations"
 logoFile="logo.png"
 authors = "The Realm 18 Studios"
