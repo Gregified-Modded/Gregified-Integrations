@@ -1,0 +1,40 @@
+{
+   "type": "forge:conditional",
+
+   "recipes": [
+      {
+         "conditions": [
+            {
+               "type": "forge:mod_loaded",
+               "modid": "twilightforest"
+            }
+         ],
+         "recipe": {
+            "type":"minecraft:crafting_shaped",
+            "pattern":[
+               "IdI",
+               "SPS",
+               "SPS"
+            ],
+            "key":{
+               "P":{
+                  "item":"twilightforest:mining_planks"
+               },
+               "S":{
+                  "tag":"forge:rods/wood"
+               },
+               "I":{
+                  "tag":"forge:screws/iron"
+               },
+               "d":{
+                  "tag":"forge:tools/screwdrivers"
+               }
+            },
+            "result":{
+               "item":"twilightforest:mining_fence_gate",
+               "count":2
+            }
+         }
+      }
+   ]
+}
