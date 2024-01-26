@@ -3,7 +3,7 @@ loaderVersion = "[43,)" #mandatory This is typically bumped every Minecraft vers
 license = "MIT"
 [[mods]] #mandatory
 modId = "tr18sgi" #mandatory
-version = "1.0.0" #mandatory
+version = "1.0.1" #mandatory
 displayName = "Gregified Integrations" #mandatory
 authors = "The Realm 18 Studios" #optional
 
@@ -13,16 +13,39 @@ modId = "minecraft"
 mandatory = true
 versionRange = "[1.20.1]"
 ordering = "NONE"
-side = "BOTH"
+side = "SERVER"
+
 [[dependencies.tr18sgi]]
 modId = "forge"
 mandatory = true
 versionRange = "[43,)"
 ordering = "NONE"
-side = "BOTH"
+side = "SERVER"
+
 [[dependencies.tr18sgi]]
 modId = "gtceu"
 mandatory = true
 versionRange = "[1,)"
-ordering = "NONE"
-side = "BOTH"
+ordering = "AFTER"
+side = "SERVER"
+
+[[dependencies.tr18sgi]]
+modId = "twilightforest"
+mandatory = false
+versionRange = "[4.3,)"
+ordering = "AFTER"
+side = "SERVER"
+
+[[dependencies.tr18sgi]]
+modId = "ars_nouveau"
+mandatory = false
+versionRange = "[4.9,)"
+ordering = "AFTER"
+side = "SERVER"
+
+[[dependencies.tr18sgi]]
+modId = "biomesoplenty"
+mandatory = false
+versionRange = "[18.0.0,)"
+ordering = "AFTER"
+side = "SERVER"
