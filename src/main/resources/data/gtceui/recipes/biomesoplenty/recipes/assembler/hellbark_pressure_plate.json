@@ -1,0 +1,152 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "biomesoplenty"
+        }
+      ],
+      "recipe": {
+        "type":"gtceu:assembler",
+        "duration":100,
+        "inputs":{
+          "item":[
+            {
+              "content":{
+                "type":"gtceu:sized",
+                "count":1,
+                "ingredient":{
+                  "tag":"forge:springs/iron"
+                }
+              },
+              "chance":1.0,
+              "tierChanceBoost":0.0
+            },
+            {
+              "content":{
+                "type":"gtceu:sized",
+                "count":2,
+                "ingredient":{
+                  "item":"biomesoplenty:hellbark_slab"
+                }
+              },
+              "chance":1.0,
+              "tierChanceBoost":0.0
+            }
+          ]
+        },
+        "outputs":{
+          "item":[
+            {
+              "content":{
+                "type":"gtceu:sized",
+                "count":2,
+                "ingredient":{
+                  "item":"biomesoplenty:hellbark_pressure_plate"
+                }
+              },
+              "chance":1.0,
+              "tierChanceBoost":0.0
+            }
+          ]
+        },
+        "tickInputs":{
+          "eu":[
+            {
+              "content":7,
+              "chance":1.0,
+              "tierChanceBoost":0.0
+            }
+          ]
+        },
+        "tickOutputs":{
+
+        }
+      },{
+      "type": "forge:conditional",
+
+      "recipes": [
+        {
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "biomesoplenty"
+            }
+          ],
+          "recipe": {
+            "type":"gtceu:assembler",
+            "duration":100,
+            "inputs":{
+              "item":[
+                {
+                  "content":{
+                    "type":"gtceu:sized",
+                    "count":2,
+                    "ingredient":{
+                      "item":"biomesoplenty:hellbark_planks"
+                    }
+                  },
+                  "chance":1.0,
+                  "tierChanceBoost":0.0
+                },
+                {
+                  "content":{
+                    "type":"gtceu:sized",
+                    "count":2,
+                    "ingredient":{
+                      "item":"minecraft:stick"
+                    }
+                  },
+                  "chance":1.0,
+                  "tierChanceBoost":0.0
+                },
+                {
+                  "content":{
+                    "type":"gtceu:sized",
+                    "count":1,
+                    "ingredient":{
+                      "type":"forge:nbt",
+                      "item":"gtceu:programmed_circuit",
+                      "count":1,
+                      "nbt":"{Configuration:2}"
+                    }
+                  },
+                  "chance":0.0,
+                  "tierChanceBoost":0.0
+                }
+              ]
+            },
+            "outputs":{
+              "item":[
+                {
+                  "content":{
+                    "type":"gtceu:sized",
+                    "count":1,
+                    "ingredient":{
+                      "item":"biomesoplenty:hellbark_fence_gate"
+                    }
+                  },
+                  "chance":1.0,
+                  "tierChanceBoost":0.0
+                }
+              ]
+            },
+            "tickInputs":{
+              "eu":[
+                {
+                  "content":4,
+                  "chance":1.0,
+                  "tierChanceBoost":0.0
+                }
+              ]
+            },
+            "tickOutputs":{
+
+            }
+          }
+        }
+      ]
+    }
