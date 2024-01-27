@@ -16,46 +16,53 @@ modId = "minecraft"
 mandatory = true
 versionRange = "[1.20.1]"
 ordering = "NONE"
-side = "SERVER"
+side = "BOTH"
 
 [[dependencies.tr18sgi]]
 modId = "forge"
 mandatory = true
 versionRange = "[43,)"
 ordering = "NONE"
-side = "SERVER"
+side = "BOTH"
 
 [[dependencies.tr18sgi]]
 modId = "gtceu"
 mandatory = true
 versionRange = "[1,)"
 ordering = "AFTER"
-side = "SERVER"
-
-[[dependencies.tr18sgi]]
-modId = "twilightforest"
-mandatory = false
-versionRange = "[4.3,)"
-ordering = "AFTER"
-side = "SERVER"
+side = "BOTH"
 
 [[dependencies.tr18sgi]]
 modId = "ars_nouveau"
 mandatory = false
 versionRange = "[4.9,)"
 ordering = "AFTER"
-side = "SERVER"
+side = "BOTH"
 
 [[dependencies.tr18sgi]]
 modId = "biomesoplenty"
 mandatory = false
 versionRange = "[18.0.0,)"
 ordering = "AFTER"
-side = "SERVER"
+side = "BOTH"
 
 [[dependencies.tr18sgi]]
 modId = "computercraft"
 mandatory = false
 versionRange = "[1.109,)"
 ordering = "AFTER"
-side = "SERVER"
+side = "BOTH"
+
+[[dependencies.tr18sgi]]
+modId = "computercraft"
+mandatory = false
+versionRange = "[1.109,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tr18sgi]]
+modId = "twilightforest"
+mandatory = false
+versionRange = "[4.3,)"
+ordering = "AFTER"
+side = "BOTH"
