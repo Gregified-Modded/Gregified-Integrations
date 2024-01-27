@@ -1,0 +1,12 @@
+{
+  "_comment1": "Config Menus",
+  "config.screen.tr18sgi": "Gregified Integration",
+  "config.tr18sgi.option.recipes": "Recipes",
+
+  "_comment2": "Recipe Menu",
+  "config.tr18sgi.option.harderArsNouveauRecipes": "Ars Nouveau",
+  "config.tr18sgi.option.harderBiomesOPlentyRecipes": "Biomes O' Plenty",
+  "config.tr18sgi.option.harderCCTweakedRecipes": "CC: Tweaked",
+  "config.tr18sgi.option.harderProductiveBeesRecipes": "Productive Bees",
+  "config.tr18sgi.option.harderTheTwilightForestRecipes": "The Twilight Forest"
+}

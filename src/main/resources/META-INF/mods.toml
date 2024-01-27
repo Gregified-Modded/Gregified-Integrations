@@ -7,9 +7,10 @@ modId = "${mod_id}"
 version = "${version}"
 displayName = "${mod_name}"
 logoFile="logo.png"
+description = "${mod_description}"
 authors = "The Realm 18 Studios, TheRealM18"
+displayURL = "${mod_url}"
 
-description = ''''''
 [[dependencies.tr18sgi]]
 modId = "minecraft"
 mandatory = true
@@ -55,6 +56,6 @@ side = "SERVER"
 [[dependencies.tr18sgi]]
 modId = "computercraft"
 mandatory = false
-versionRange = "[47.1.0,)"
+versionRange = "[1.109,)"
 ordering = "AFTER"
 side = "SERVER"
