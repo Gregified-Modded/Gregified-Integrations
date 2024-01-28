@@ -1,5 +1,6 @@
 package com.therealm18studios.gregifiedintegrations.data.recipe;
 
+import com.lowdragmc.lowdraglib.Platform;
 import com.therealm18studios.gregifiedintegrations.data.recipe.configurable.recipes.addition.*;
 import com.therealm18studios.gregifiedintegrations.data.recipe.configurable.recipes.removal.*;
 import net.minecraft.data.recipes.FinishedRecipe;
@@ -11,18 +12,18 @@ public class GIRecipes {
 
     public static void newInit(Consumer<FinishedRecipe> provider) {
 
-        ArsNouveauRecipeAddition.init(provider);
-        BiomesOPlentyRecipeAddition.init(provider);
-        CCTweakedRecipeAddition.init(provider);
-        ProductiveBeesRecipeAddition.init(provider);
-        TheTwilightForestRecipeAddition.init(provider);
+        if (Platform.isModLoaded("ars_nouveau")) ArsNouveauRecipeAddition.init(provider);
+        if (Platform.isModLoaded("biomesoplenty")) BiomesOPlentyRecipeAddition.init(provider);
+        if (Platform.isModLoaded("computercraft")) CCTweakedRecipeAddition.init(provider);
+        if (Platform.isModLoaded("productivebees")) ProductiveBeesRecipeAddition.init(provider);
+        if (Platform.isModLoaded("twilightforest")) TheTwilightForestRecipeAddition.init(provider);
     }
     public static void removedInit(Consumer<ResourceLocation> provider) {
 
-        ArsNouveauRecipeRemoval.init(provider);
-        BiomesOPlentyRecipeRemoval.init(provider);
-        CCTweakedRecipeRemoval.init(provider);
-        ProductiveBeesRecipeRemoval.init(provider);
-        TheTwilightForestRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("ars_nouveau")) ArsNouveauRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("biomesoplenty")) BiomesOPlentyRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("computercraft")) CCTweakedRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("productivebees")) ProductiveBeesRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("twilightforest")) TheTwilightForestRecipeRemoval.init(provider);
     }
 }
