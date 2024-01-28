@@ -12,13 +12,13 @@ public class ProductiveBeesRecipeRemoval {
     }
 
     private static void harderProductiveBeesRecipes(Consumer<ResourceLocation> registry) {
-        registry.accept(new ResourceLocation("ars_nouveau:archwood_button"));
-        registry.accept(new ResourceLocation("ars_nouveau:archwood_chest"));
-        registry.accept(new ResourceLocation("ars_nouveau:archwood_door"));
-        registry.accept(new ResourceLocation("ars_nouveau:archwood_fence"));
-        registry.accept(new ResourceLocation("ars_nouveau:archwood_fence_gate"));
-        registry.accept(new ResourceLocation("ars_nouveau:archwood_planks"));
-        registry.accept(new ResourceLocation("ars_nouveau:archwood_pressure_plate"));
-        registry.accept(new ResourceLocation("ars_nouveau:archwood_trapdoor"));
+//        registry.accept(new ResourceLocation("ars_nouveau:archwood_button"));
+//        registry.accept(new ResourceLocation("ars_nouveau:archwood_chest"));
+//        registry.accept(new ResourceLocation("ars_nouveau:archwood_door"));
+//        registry.accept(new ResourceLocation("ars_nouveau:archwood_fence"));
+//        registry.accept(new ResourceLocation("ars_nouveau:archwood_fence_gate"));
+//        registry.accept(new ResourceLocation("ars_nouveau:archwood_planks"));
+//        registry.accept(new ResourceLocation("ars_nouveau:archwood_pressure_plate"));
+//        registry.accept(new ResourceLocation("ars_nouveau:archwood_trapdoor"));
     }
 }
