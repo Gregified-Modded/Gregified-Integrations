@@ -18,6 +18,7 @@ public class GregTechCEuTags {
          */
         public static final TagKey<Item> GTCEU_CIRCUITS_ZPM = ItemTags.create(new ResourceLocation("gtceu", "circuits/zpm"));
         public static final TagKey<Item> GTCEU_CIRCUITS_LUV = ItemTags.create(new ResourceLocation("gtceu", "circuits/luv"));
+        public static final TagKey<Item> GTCEU_CIRCUITS_LV = ItemTags.create(new ResourceLocation("gtceu", "circuits/lv"));
         public static final TagKey<Item> GTCEU_CIRCUITS_IV = ItemTags.create(new ResourceLocation("gtceu", "circuits/iv"));
     }
 }
