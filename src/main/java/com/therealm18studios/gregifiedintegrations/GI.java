@@ -15,8 +15,6 @@ public class GI {
     public static final String
             MOD_ID = "tr18sgi",
             NAME = "Gregified Integration";
-    public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
-
     public GI() {
         GI.init();
         var bus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -29,9 +27,5 @@ public class GI {
         GIDataGen.init();
 
         GIRegistries.REGISTRATE.registerRegistrate();
-    }
-
-    public static ResourceLocation id(String path) {
-        return new ResourceLocation(MOD_ID, path);
     }
 }

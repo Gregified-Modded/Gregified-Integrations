@@ -8,7 +8,7 @@ import java.util.function.Consumer;
 public class CCTweakedRecipeRemoval {
 
     public static void init(Consumer<ResourceLocation> registry) {
-        if (GIConfigHolder.INSTANCE.recipes.harderCCTweakedRecipes) harderCCTweakedRecipes(registry);
+        if (GIConfigHolder.INSTANCE.recipesRemoval.harderCCTweakedRemoveRecipes) harderCCTweakedRecipes(registry);
     }
 
     private static void harderCCTweakedRecipes(Consumer<ResourceLocation> registry) {

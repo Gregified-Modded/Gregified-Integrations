@@ -7,7 +7,7 @@ import java.util.function.Consumer;
 public class TheTwilightForestRecipeRemoval {
 
     public static void init(Consumer<ResourceLocation> registry) {
-        if (GIConfigHolder.INSTANCE.recipes.harderTheTwilightForestRecipes) harderTheTwilightForestRecipes(registry);
+        if (GIConfigHolder.INSTANCE.recipesRemoval.harderTheTwilightForestRemoveRecipes) harderTheTwilightForestRecipes(registry);
     }
 
     private static void harderTheTwilightForestRecipes(Consumer<ResourceLocation> registry){

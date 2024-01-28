@@ -8,7 +8,7 @@ import java.util.function.Consumer;
 public class BiomesOPlentyRecipeRemoval {
 
     public static void init(Consumer<ResourceLocation> registry) {
-        if (GIConfigHolder.INSTANCE.recipes.harderBiomesOPlentyRecipes) harderBiomesOPlentyRecipes(registry);
+        if (GIConfigHolder.INSTANCE.recipesRemoval.harderBiomesOPlentyRemoveRecipes) harderBiomesOPlentyRecipes(registry);
     }
 
     private static void harderBiomesOPlentyRecipes(Consumer<ResourceLocation> registry){

@@ -23,12 +23,12 @@ public class BiomesOPlentyRecipeAddition {
 
     public static void init(Consumer<FinishedRecipe> provider) {
         harderBiomesOPlentyRecipes(provider);
-        if (GIConfigHolder.INSTANCE.recipes.harderBiomesOPlentyRecipes) harderBiomesOPlentyRecipes(provider);
+        if (GIConfigHolder.INSTANCE.recipesAdditions.harderBiomesOPlentyAddRecipes) harderBiomesOPlentyRecipes(provider);
     }
 
     private static void harderBiomesOPlentyRecipes(Consumer<FinishedRecipe> provider) {
 
-        boolean nerfed = GIConfigHolder.INSTANCE.recipes.harderBiomesOPlentyRecipes;
+        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.harderBiomesOPlentyAddRecipes;
         if (nerfed) {
             VanillaRecipeHelper.addShapedRecipe(provider, "dead_boat", new ItemStack(BOPItems.DEAD_BOAT.get()), "PHP", "PkP", "SSS", 'P', new ItemStack(BOPBlocks.DEAD_PLANKS.get()), 'S', new ItemStack(BOPBlocks.DEAD_SLAB.get()), 'H', new ItemStack(Items.WOODEN_SHOVEL));
             VanillaRecipeHelper.addShapedRecipe(provider, "dead_button", new ItemStack(BOPBlocks.DEAD_BUTTON.get(), 6), "sP", 'P', BOPBlocks.DEAD_PLANKS.get());

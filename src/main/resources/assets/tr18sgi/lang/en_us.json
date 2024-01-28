@@ -1,12 +1,26 @@
 {
   "_comment1": "Config Menus",
   "config.screen.tr18sgi": "Gregified Integration",
-  "config.tr18sgi.option.recipes": "Recipes",
+  "config.tr18sgi.option.recipesAdditions": "Recipes Additions",
+  "config.tr18sgi.option.recipesRemoval": "Recipes Removal",
 
-  "_comment2": "Recipe Menu",
-  "config.tr18sgi.option.harderArsNouveauRecipes": "Ars Nouveau",
-  "config.tr18sgi.option.harderBiomesOPlentyRecipes": "Biomes O' Plenty",
-  "config.tr18sgi.option.harderCCTweakedRecipes": "CC: Tweaked",
-  "config.tr18sgi.option.harderProductiveBeesRecipes": "Productive Bees",
-  "config.tr18sgi.option.harderTheTwilightForestRecipes": "The Twilight Forest"
+  "_comment2": "Recipe Adding Menu",
+  "config.tr18sgi.option.harderArsNouveauAddRecipes": "Ars Nouveau",
+  "config.tr18sgi.option.harderBiomesOPlentyAddRecipes": "Biomes O' Plenty",
+  "config.tr18sgi.option.harderCCTweakedAddRecipes": "CC: Tweaked",
+  "config.tr18sgi.option.harderChiselAndBitsAddRecipes": "Chisel and Bits",
+  "config.tr18sgi.option.harderProductiveBeesAddRecipes": "Productive Bees",
+  "config.tr18sgi.option.harderRechiseledAddRecipes": "Rechiseled",
+  "config.tr18sgi.option.harderRechiseledCreateAddRecipes": "Rechiseled Create",
+  "config.tr18sgi.option.harderTheTwilightForestAddRecipes": "The Twilight Forest",
+
+  "_comment3": "Recipe Removing Menu",
+  "config.tr18sgi.option.harderArsNouveauRemoveRecipes": "Ars Nouveau",
+  "config.tr18sgi.option.harderBiomesOPlentyRemoveRecipes": "Biomes O' Plenty",
+  "config.tr18sgi.option.harderCCTweakedRemoveRecipes": "CC: Tweaked",
+  "config.tr18sgi.option.harderChiselAndBitsRemoveRecipes": "Chisel and Bits",
+  "config.tr18sgi.option.harderProductiveBeesRemoveRecipes": "Productive Bees",
+  "config.tr18sgi.option.harderRechiseledRemoveRecipes": "Rechiseled",
+  "config.tr18sgi.option.harderRechiseledCreateRemoveRecipes": "Rechiseled Create",
+  "config.tr18sgi.option.harderTheTwilightForestRemoveRecipes": "The Twilight Forest"
 }
