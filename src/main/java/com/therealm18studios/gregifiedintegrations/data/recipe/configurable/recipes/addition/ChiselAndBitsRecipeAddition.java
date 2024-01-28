@@ -27,7 +27,7 @@ public class ChiselAndBitsRecipeAddition {
             VanillaRecipeHelper.addShapedRecipe(provider, "chisel_iron", new ItemStack(ModItems.ITEM_CHISEL_IRON.get()), " T", "S ", 'T', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.IronMagnetic), 'S', new UnificationEntry(TagPrefix.rodLong, GTMaterials.Potin));
             VanillaRecipeHelper.addShapedRecipe(provider, "chisel_gold", new ItemStack(ModItems.ITEM_CHISEL_GOLD.get()), " T", "S ", 'T', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.RoseGold), 'S', new UnificationEntry(TagPrefix.rodLong, GTMaterials.Potin));
             VanillaRecipeHelper.addShapedRecipe(provider, "chisel_diamond", new ItemStack(ModItems.ITEM_CHISEL_DIAMOND.get()), " T", "S ", 'T', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.HastelloyC276), 'S', new UnificationEntry(TagPrefix.rodLong, GTMaterials.Potin));
-            VanillaRecipeHelper.addShapedRecipe(provider, "chisel_netherite", new ItemStack(ModItems.ITEM_CHISEL_NETHERITE.get()), " T", "S ", 'T', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.NaquadahEnriched), 'S', new UnificationEntry(TagPrefix.rodLong, GTMaterials.Bismuth));
+            VanillaRecipeHelper.addShapedRecipe(provider, "chisel_netherite", new ItemStack(ModItems.ITEM_CHISEL_NETHERITE.get()), " T", "S ", 'T', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.NaquadahEnriched), 'S', new UnificationEntry(TagPrefix.rodLong, GTMaterials.Cupronickel));
         }
         else {
 
