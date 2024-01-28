@@ -27,7 +27,7 @@ public class GIConfigHolder {
         @Configurable.Comment({"Whether to harden CC Tweaked recipes.", "Default: false"})
         public boolean harderCCTweakedRecipes = false; // default false
         @Configurable
-        @Configurable.Comment({"Whether to harden Productive Bees recipes.", "Default: false"})
+        @Configurable.Comment({"Whether to harden Productive Bees recipes.", "THIS DOES NOT CURRENTLY WORK!", "YOU HAVE BEEN WARNED!!!", "Default: false"})
         public boolean harderProductiveBeesRecipes = false; // default false
         @Configurable
         @Configurable.Comment({"Whether to harden The Twilight Forest recipes.", "Default: false"})
