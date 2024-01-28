@@ -1,6 +1,7 @@
 package com.therealm18studios.gregifiedintegrations.data.recipe.configurable.recipes.addition;
 
 import com.gregtechceu.gtceu.data.recipe.VanillaRecipeHelper;
+import com.supermartijn642.rechiseled.ChiselItem;
 import com.supermartijn642.rechiseled.Rechiseled;
 import com.therealm18studios.gregifiedintegrations.config.GIConfigHolder;
 import net.minecraft.data.recipes.FinishedRecipe;
@@ -17,11 +18,11 @@ public class RechiseledRecipeAddition {
 
     private static void harderRechiseledRecipes(Consumer<FinishedRecipe> provider) {
 
-//        boolean nerfed = GIConfigHolder.INSTANCE.recipes.harderRechiseledRecipes;
-//        if (nerfed) {
-//            VanillaRecipeHelper.addShapedRecipe(provider, "chisel", new ItemStack(Rechiseled.chisel), "sP", 'P', BlockRegistry.ARCHWOOD_PLANK);
-//        } else {
-//
-//        }
+        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.harderRechiseledAddRecipes;
+        if (nerfed) {
+//            VanillaRecipeHelper.addShapedRecipe(provider, "chisel", new ItemStack(Rechiseled.registerItem), "sP", 'P', BlockRegistry.ARCHWOOD_PLANK);
+        } else {
+
+        }
     }
 }
