@@ -30,7 +30,7 @@ public class GIConfigHolder {
         @Configurable.Comment({"Whether to harden Chisel and Bits recipes.", "Default: false"})
         public boolean harderChiselAndBitsAddRecipes = false; // default false
         @Configurable
-        @Configurable.Comment({"Whether to harden Productive Bees recipes.", "THIS DOES NOT CURRENTLY WORK!", "YOU HAVE BEEN WARNED!!!", "Default: false"})
+        @Configurable.Comment({"Whether to harden Productive Bees recipes.", "Default: false"})
         public boolean harderProductiveBeesAddRecipes = false; // default false
         @Configurable
         @Configurable.Comment({"Whether to harden Rechiseled recipes.", "Default: false"})
