@@ -1,11 +1,15 @@
 package com.therealm18studios.gregifiedintegrations.data.recipe.configurable.recipes.addition;
 
+import com.gregtechceu.gtceu.api.data.chemical.material.stack.UnificationEntry;
+import com.gregtechceu.gtceu.api.data.tag.TagPrefix;
+import com.gregtechceu.gtceu.common.data.GTMaterials;
 import com.gregtechceu.gtceu.data.recipe.VanillaRecipeHelper;
 import com.supermartijn642.rechiseled.ChiselItem;
 import com.supermartijn642.rechiseled.Rechiseled;
 import com.therealm18studios.gregifiedintegrations.config.GIConfigHolder;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 
 import java.util.function.Consumer;
 
@@ -20,7 +24,7 @@ public class RechiseledRecipeAddition {
 
         boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.harderRechiseledAddRecipes;
         if (nerfed) {
-//            VanillaRecipeHelper.addShapedRecipe(provider, "chisel", new ItemStack(Rechiseled.registerItem), "sP", 'P', BlockRegistry.ARCHWOOD_PLANK);
+            VanillaRecipeHelper.addShapedRecipe(provider, "chisel", new ItemStack(Rechiseled.chisel), " P", "S ", 'P', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.WroughtIron), 'S', Items.STICK);
         } else {
 
         }
