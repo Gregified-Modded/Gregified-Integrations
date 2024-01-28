@@ -47,9 +47,9 @@ ordering = "AFTER"
 side = "BOTH"
 
 [[dependencies.tr18sgi]]
-modId = "computercraft"
+modId = "chiselsandbits"
 mandatory = false
-versionRange = "[1.109,)"
+versionRange = "[1.4,)"
 ordering = "AFTER"
 side = "BOTH"
 
@@ -57,6 +57,27 @@ side = "BOTH"
 modId = "computercraft"
 mandatory = false
 versionRange = "[1.109,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tr18sgi]]
+modId = "productivebees"
+mandatory = false
+versionRange = "[1.20.1-12.2,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tr18sgi]]
+modId = "rechiseled"
+mandatory = false
+versionRange = "[1.1,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tr18sgi]]
+modId = "rechiseledcreate"
+mandatory = false
+versionRange = "[1.0,)"
 ordering = "AFTER"
 side = "BOTH"
 
