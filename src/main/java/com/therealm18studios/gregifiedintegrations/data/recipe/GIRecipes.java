@@ -1,8 +1,8 @@
 package com.therealm18studios.gregifiedintegrations.data.recipe;
 
 import com.lowdragmc.lowdraglib.Platform;
-import com.therealm18studios.gregifiedintegrations.data.recipe.configurable.recipes.addition.*;
-import com.therealm18studios.gregifiedintegrations.data.recipe.configurable.recipes.removal.*;
+import com.therealm18studios.gregifiedintegrations.data.recipe.configurable.addition.*;
+import com.therealm18studios.gregifiedintegrations.data.recipe.configurable.removal.*;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.resources.ResourceLocation;
 
