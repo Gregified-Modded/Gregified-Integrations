@@ -1,4 +1,4 @@
-package com.therealm18studios.gregifiedintegrations.data.recipe.configurable.recipes.addition;
+package com.therealm18studios.gregifiedintegrations.data.recipe.configurable.addition;
 
 import biomesoplenty.api.block.BOPBlocks;
 import biomesoplenty.api.item.BOPItems;

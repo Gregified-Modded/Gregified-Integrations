@@ -1,11 +1,10 @@
-package com.therealm18studios.gregifiedintegrations.data.recipe.configurable.recipes.addition;
+package com.therealm18studios.gregifiedintegrations.data.recipe.configurable.addition;
 
 import com.gregtechceu.gtceu.api.GTValues;
 import com.gregtechceu.gtceu.common.data.GTMaterials;
 import com.gregtechceu.gtceu.common.data.GTRecipeTypes;
 import com.therealm18studios.gregifiedintegrations.config.GIConfigHolder;
 import cy.jdkdigital.productivebees.init.ModBlocks;
-import cy.jdkdigital.productivebees.init.ModItems;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Blocks;

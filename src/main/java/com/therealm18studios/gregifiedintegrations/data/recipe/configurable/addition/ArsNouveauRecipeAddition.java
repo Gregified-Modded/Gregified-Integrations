@@ -1,4 +1,4 @@
-package com.therealm18studios.gregifiedintegrations.data.recipe.configurable.recipes.addition;
+package com.therealm18studios.gregifiedintegrations.data.recipe.configurable.addition;
 
 import com.gregtechceu.gtceu.api.GTValues;
 import com.gregtechceu.gtceu.api.data.chemical.material.stack.UnificationEntry;

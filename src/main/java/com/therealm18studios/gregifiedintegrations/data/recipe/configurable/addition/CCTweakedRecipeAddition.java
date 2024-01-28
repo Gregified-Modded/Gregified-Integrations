@@ -1,4 +1,4 @@
-package com.therealm18studios.gregifiedintegrations.data.recipe.configurable.recipes.addition;
+package com.therealm18studios.gregifiedintegrations.data.recipe.configurable.addition;
 
 import com.gregtechceu.gtceu.api.data.chemical.material.stack.UnificationEntry;
 import com.gregtechceu.gtceu.api.data.tag.TagPrefix;
@@ -10,8 +10,7 @@ import com.therealm18studios.gregifiedintegrations.data.tags.ForgeTags;
 import com.therealm18studios.gregifiedintegrations.data.tags.GregTechCEuTags;
 import dan200.computercraft.shared.ModRegistry;
 import net.minecraft.data.recipes.FinishedRecipe;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Blocks;
 
 import java.util.function.Consumer;
@@ -42,7 +41,6 @@ public class CCTweakedRecipeAddition {
             VanillaRecipeHelper.addShapedRecipe(provider, "wired_modem", new ItemStack(ModRegistry.Blocks.CABLE.get()), "CCC", "CPC", "CCC", 'P', new UnificationEntry(TagPrefix.wireFine, GTMaterials.RedAlloy), 'C', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.Tungsten));
             VanillaRecipeHelper.addShapedRecipe(provider, "wireless_modem_advanced", new ItemStack(ModRegistry.Blocks.WIRELESS_MODEM_ADVANCED.get()), "CCC", "CPC", "CCC", 'P', Items.ENDER_EYE, 'C', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.TantalumCarbide));
             VanillaRecipeHelper.addShapedRecipe(provider, "wireless_modem_normal", new ItemStack(ModRegistry.Blocks.WIRELESS_MODEM_NORMAL.get()), "CCC", "CPC", "CCC", 'P', Items.ENDER_EYE, 'C', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.Tungsten));
-
         } else {
 
         }

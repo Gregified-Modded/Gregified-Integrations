@@ -1,10 +1,9 @@
-package com.therealm18studios.gregifiedintegrations.data.recipe.configurable.recipes.addition;
+package com.therealm18studios.gregifiedintegrations.data.recipe.configurable.addition;
 
 import com.gregtechceu.gtceu.api.data.chemical.material.stack.UnificationEntry;
 import com.gregtechceu.gtceu.api.data.tag.TagPrefix;
 import com.gregtechceu.gtceu.common.data.GTMaterials;
 import com.gregtechceu.gtceu.data.recipe.VanillaRecipeHelper;
-import com.supermartijn642.rechiseled.ChiselItem;
 import com.supermartijn642.rechiseled.Rechiseled;
 import com.therealm18studios.gregifiedintegrations.config.GIConfigHolder;
 import net.minecraft.data.recipes.FinishedRecipe;

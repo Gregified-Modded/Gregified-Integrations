@@ -1,4 +1,4 @@
-package com.therealm18studios.gregifiedintegrations.data.recipe.configurable.recipes.removal;
+package com.therealm18studios.gregifiedintegrations.data.recipe.configurable.removal;
 
 import com.therealm18studios.gregifiedintegrations.config.GIConfigHolder;
 import net.minecraft.resources.ResourceLocation;
