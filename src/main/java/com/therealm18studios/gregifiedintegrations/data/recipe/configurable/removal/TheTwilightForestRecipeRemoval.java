@@ -11,6 +11,7 @@ public class TheTwilightForestRecipeRemoval {
     }
 
     private static void harderTheTwilightForestRecipes(Consumer<ResourceLocation> registry){
+        registry.accept(new ResourceLocation("twilightforest:canopy_boat"));
         registry.accept(new ResourceLocation("twilightforest:canopy_button"));
         registry.accept(new ResourceLocation("twilightforest:canopy_chest"));
         registry.accept(new ResourceLocation("twilightforest:canopy_door"));
@@ -19,6 +20,7 @@ public class TheTwilightForestRecipeRemoval {
         registry.accept(new ResourceLocation("twilightforest:canopy_planks"));
         registry.accept(new ResourceLocation("twilightforest:canopy_pressure_plate"));
         registry.accept(new ResourceLocation("twilightforest:canopy_trapdoor"));
+        registry.accept(new ResourceLocation("twilightforest:dark_boat"));
         registry.accept(new ResourceLocation("twilightforest:dark_button"));
         registry.accept(new ResourceLocation("twilightforest:dark_chest"));
         registry.accept(new ResourceLocation("twilightforest:dark_door"));
@@ -27,6 +29,7 @@ public class TheTwilightForestRecipeRemoval {
         registry.accept(new ResourceLocation("twilightforest:dark_planks"));
         registry.accept(new ResourceLocation("twilightforest:dark_pressure_plate"));
         registry.accept(new ResourceLocation("twilightforest:dark_trapdoor"));
+        registry.accept(new ResourceLocation("twilightforest:mangrove_boat"));
         registry.accept(new ResourceLocation("twilightforest:mangrove_button"));
         registry.accept(new ResourceLocation("twilightforest:mangrove_chest"));
         registry.accept(new ResourceLocation("twilightforest:mangrove_door"));
@@ -35,6 +38,7 @@ public class TheTwilightForestRecipeRemoval {
         registry.accept(new ResourceLocation("twilightforest:mangrove_planks"));
         registry.accept(new ResourceLocation("twilightforest:mangrove_pressure_plate"));
         registry.accept(new ResourceLocation("twilightforest:mangrove_trapdoor"));
+        registry.accept(new ResourceLocation("twilightforest:mining_boat"));
         registry.accept(new ResourceLocation("twilightforest:mining_button"));
         registry.accept(new ResourceLocation("twilightforest:mining_chest"));
         registry.accept(new ResourceLocation("twilightforest:mining_door"));
@@ -43,6 +47,7 @@ public class TheTwilightForestRecipeRemoval {
         registry.accept(new ResourceLocation("twilightforest:mining_planks"));
         registry.accept(new ResourceLocation("twilightforest:mining_pressure_plate"));
         registry.accept(new ResourceLocation("twilightforest:mining_trapdoor"));
+        registry.accept(new ResourceLocation("twilightforest:sorting_boat"));
         registry.accept(new ResourceLocation("twilightforest:sorting_button"));
         registry.accept(new ResourceLocation("twilightforest:sorting_chest"));
         registry.accept(new ResourceLocation("twilightforest:sorting_door"));
@@ -51,6 +56,7 @@ public class TheTwilightForestRecipeRemoval {
         registry.accept(new ResourceLocation("twilightforest:sorting_planks"));
         registry.accept(new ResourceLocation("twilightforest:sorting_pressure_plate"));
         registry.accept(new ResourceLocation("twilightforest:sorting_trapdoor"));
+        registry.accept(new ResourceLocation("twilightforest:time_boat"));
         registry.accept(new ResourceLocation("twilightforest:time_button"));
         registry.accept(new ResourceLocation("twilightforest:time_chest"));
         registry.accept(new ResourceLocation("twilightforest:time_door"));
@@ -59,6 +65,7 @@ public class TheTwilightForestRecipeRemoval {
         registry.accept(new ResourceLocation("twilightforest:time_planks"));
         registry.accept(new ResourceLocation("twilightforest:time_pressure_plate"));
         registry.accept(new ResourceLocation("twilightforest:time_trapdoor"));
+        registry.accept(new ResourceLocation("twilightforest:transformation_boat"));
         registry.accept(new ResourceLocation("twilightforest:transformation_button"));
         registry.accept(new ResourceLocation("twilightforest:transformation_chest"));
         registry.accept(new ResourceLocation("twilightforest:transformation_door"));
@@ -67,6 +74,7 @@ public class TheTwilightForestRecipeRemoval {
         registry.accept(new ResourceLocation("twilightforest:transformation_planks"));
         registry.accept(new ResourceLocation("twilightforest:transformation_pressure_plate"));
         registry.accept(new ResourceLocation("twilightforest:transformation_trapdoor"));
+        registry.accept(new ResourceLocation("twilightforest:twilight_oak_boat"));
         registry.accept(new ResourceLocation("twilightforest:twilight_oak_button"));
         registry.accept(new ResourceLocation("twilightforest:twilight_oak_chest"));
         registry.accept(new ResourceLocation("twilightforest:twilight_oak_door"));
