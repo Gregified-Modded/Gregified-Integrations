@@ -30,6 +30,7 @@ public class GIRecipes {
         if (Platform.isModLoaded("appmek")) AppliedMekanisticsRecipeRemoval.init(provider);
         if (Platform.isModLoaded("ars_nouveau")) ArsNouveauRecipeRemoval.init(provider);
         if (Platform.isModLoaded("arseng")) ArsÉnergistiqueRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("assemblyline")) AssemblyLineRecipeRemoval.init(provider);
         if (Platform.isModLoaded("biomesoplenty")) BiomesOPlentyRecipeRemoval.init(provider);
         if (Platform.isModLoaded("computercraft")) CCTweakedRecipeRemoval.init(provider);
         if (Platform.isModLoaded("chiselsandbits")) ChiselAndBitsRecipeRemoval.init(provider);
