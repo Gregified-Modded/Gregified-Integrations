@@ -31,9 +31,15 @@ public class GIRecipes {
         if (Platform.isModLoaded("ars_nouveau")) ArsNouveauRecipeRemoval.init(provider);
         if (Platform.isModLoaded("arseng")) ArsÉnergistiqueRecipeRemoval.init(provider);
         if (Platform.isModLoaded("assemblyline")) AssemblyLineRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("betterarcheology")) BetterArcheologyRecipeRemoval.init(provider);
         if (Platform.isModLoaded("biomesoplenty")) BiomesOPlentyRecipeRemoval.init(provider);
-        if (Platform.isModLoaded("computercraft")) CCTweakedRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("cccbridge")) CCCBridgeRecipeRemoval.init(provider);
         if (Platform.isModLoaded("chiselsandbits")) ChiselAndBitsRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("colony4cc")) CCTweakedRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("computercraft")) CCTweakedRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("cookingforblockheads")) CookingForBlockheadsRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("merequester")) MERequesterRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("multipiston")) MultiPistonRecipeRemoval.init(provider);
         if (Platform.isModLoaded("productivebees")) ProductiveBeesRecipeRemoval.init(provider);
         if (Platform.isModLoaded("rechiseled")) RechiseledRecipeRemoval.init(provider);
         if (Platform.isModLoaded("rechiseledcreate")) RechiseledCreateRecipeRemoval.init(provider);
