@@ -184,9 +184,6 @@ public class GIConfigHolder {
             @Configurable.Comment({"Whether to harden More Red recipes.", "Default: true"})
             public boolean harderMoreRedRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden More Red x CC:Tweaked Compat recipes.", "Default: true"})
-            public boolean harderMoreRedXCCTweakedCompatRecipes = true; // default true
-            @Configurable
             @Configurable.Comment({"Whether to harden Multi-Piston recipes.", "Default: true"})
             public boolean harderMultiPistonRecipes = true; // default true
         }
@@ -452,9 +449,6 @@ public class GIConfigHolder {
             @Configurable
             @Configurable.Comment({"Whether to harden More Red recipes.", "Default: true"})
             public boolean harderMoreRedRecipes = true; // default true
-            @Configurable
-            @Configurable.Comment({"Whether to harden More Red x CC:Tweaked Compat recipes.", "Default: true"})
-            public boolean harderMoreRedXCCTweakedCompatRecipes = true; // default true
             @Configurable
             @Configurable.Comment({"Whether to harden Multi-Piston recipes.", "Default: true"})
             public boolean harderMultiPistonRecipes = true; // default true
