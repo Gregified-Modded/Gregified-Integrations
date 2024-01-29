@@ -44,6 +44,7 @@ public class GIRecipes {
         if (Platform.isModLoaded("productivebees")) ProductiveBeesRecipeRemoval.init(provider);
         if (Platform.isModLoaded("rechiseled")) RechiseledRecipeRemoval.init(provider);
         if (Platform.isModLoaded("rechiseledcreate")) RechiseledCreateRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("solarpanels")) MekanismMoreSolarPanelsRecipeRemoval.init(provider);
         if (Platform.isModLoaded("twilightforest")) TheTwilightForestRecipeRemoval.init(provider);
     }
 }
