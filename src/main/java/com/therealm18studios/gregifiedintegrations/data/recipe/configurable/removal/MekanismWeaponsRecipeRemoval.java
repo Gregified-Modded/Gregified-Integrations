@@ -5,7 +5,6 @@ import net.minecraft.resources.ResourceLocation;
 
 import java.util.function.Consumer;
 
-//TODO: All
 public class MekanismWeaponsRecipeRemoval {
 
     public static void init(Consumer<ResourceLocation> registry) {
@@ -13,6 +12,16 @@ public class MekanismWeaponsRecipeRemoval {
     }
 
     private static void harderMekanismWeaponsRecipes(Consumer<ResourceLocation> registry) {
-//        registry.accept(new ResourceLocation("ae2wtlib:magnet_card"));
+        registry.accept(new ResourceLocation("mekaeapons:bow_limb"));
+        registry.accept(new ResourceLocation("mekaeapons:bow_riser"));
+        registry.accept(new ResourceLocation("mekaeapons:katana_blade"));
+        registry.accept(new ResourceLocation("mekaeapons:magnetizer"));
+        registry.accept(new ResourceLocation("mekaeapons:mekabow"));
+        registry.accept(new ResourceLocation("mekaeapons:mekatana"));
+        registry.accept(new ResourceLocation("mekaeapons:modular_arrowenergy_unit"));
+        registry.accept(new ResourceLocation("mekaeapons:modular_arrowvelocity_unit"));
+        registry.accept(new ResourceLocation("mekaeapons:modular_autofire_unit"));
+        registry.accept(new ResourceLocation("mekaeapons:modular_drawspeed_unit"));
+        registry.accept(new ResourceLocation("mekaeapons:modular_gravity_dampener_unit"));
     }
 }

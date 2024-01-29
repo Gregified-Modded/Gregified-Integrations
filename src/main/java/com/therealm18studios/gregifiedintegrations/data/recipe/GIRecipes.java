@@ -38,6 +38,7 @@ public class GIRecipes {
         if (Platform.isModLoaded("colony4cc")) CCTweakedRecipeRemoval.init(provider);
         if (Platform.isModLoaded("computercraft")) CCTweakedRecipeRemoval.init(provider);
         if (Platform.isModLoaded("cookingforblockheads")) CookingForBlockheadsRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("mekaweapons")) MekanismWeaponsRecipeRemoval.init(provider);
         if (Platform.isModLoaded("merequester")) MERequesterRecipeRemoval.init(provider);
         if (Platform.isModLoaded("multipiston")) MultiPistonRecipeRemoval.init(provider);
         if (Platform.isModLoaded("productivebees")) ProductiveBeesRecipeRemoval.init(provider);
