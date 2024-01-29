@@ -8,10 +8,10 @@ import java.util.function.Consumer;
 public class ArsÉnergistiqueRecipeRemoval {
 
     public static void init(Consumer<ResourceLocation> registry) {
-        if (GIConfigHolder.INSTANCE.recipesRemoval.a.harderAppliedMekanisticsRecipes) harderAppliedMekanisticsRecipes(registry);
+        if (GIConfigHolder.INSTANCE.recipesRemoval.a.harderArsÉnergistiqueRecipes) harderArsÉnergistiqueRecipes(registry);
     }
 
-    private static void harderAppliedMekanisticsRecipes(Consumer<ResourceLocation> registry) {
+    private static void harderArsÉnergistiqueRecipes(Consumer<ResourceLocation> registry) {
         registry.accept(new ResourceLocation("arseng:cable_source_acceptor"));
         registry.accept(new ResourceLocation("arseng:source_acceptor"));
         registry.accept(new ResourceLocation("arseng:source_acceptor_from_part"));
