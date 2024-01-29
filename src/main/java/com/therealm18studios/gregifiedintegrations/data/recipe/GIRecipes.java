@@ -23,7 +23,13 @@ public class GIRecipes {
     }
     public static void removedInit(Consumer<ResourceLocation> provider) {
 
+        if (Platform.isModLoaded("ae2")) AppliedEnergistics2RecipeRemoval.init(provider);
+        if (Platform.isModLoaded("ae2wtlib")) AE2WTLibRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("appbot")) AppliedBotanicsRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("appliedcooking")) AppliedCookingRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("appmek")) AppliedMekanisticsRecipeRemoval.init(provider);
         if (Platform.isModLoaded("ars_nouveau")) ArsNouveauRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("arseng")) ArsÉnergistiqueRecipeRemoval.init(provider);
         if (Platform.isModLoaded("biomesoplenty")) BiomesOPlentyRecipeRemoval.init(provider);
         if (Platform.isModLoaded("computercraft")) CCTweakedRecipeRemoval.init(provider);
         if (Platform.isModLoaded("chiselsandbits")) ChiselAndBitsRecipeRemoval.init(provider);
