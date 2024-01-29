@@ -14,8 +14,8 @@ public class AE2WTLibRecipeRemoval {
     private static void harderAE2WTLibRecipes(Consumer<ResourceLocation> registry) {
         registry.accept(new ResourceLocation("ae2wtlib:magnet_card"));
         registry.accept(new ResourceLocation("ae2wtlib:quantum_bridge_card"));
-        registry.accept(new ResourceLocation("ae2wtlib:pattern_accesss/wireless_pattern_access_terminal"));
-        registry.accept(new ResourceLocation("ae2wtlib:pattern_encoding/upgrade_wireless_pattern_eencoding_terminal"));
+        registry.accept(new ResourceLocation("ae2wtlib:pattern_access/wireless_pattern_access_terminal"));
+        registry.accept(new ResourceLocation("ae2wtlib:pattern_encoding/upgrade_wireless_pattern_encoding_terminal"));
         registry.accept(new ResourceLocation("ae2wtlib:pattern_encoding/wireless_pattern_encoding_terminal"));
     }
 }
