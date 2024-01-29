@@ -21,85 +21,85 @@ public class GIConfigHolder {
 
         public static class ModsAConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden AE2WTLib recipes.", "Default: false"})
-            public boolean harderAE2WTLibRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden AE2WTLib recipes.", "Default: true"})
+            public boolean harderAE2WTLibRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Applied Botanics recipes.", "Default: false"})
-            public boolean harderAppliedBotanicsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Applied Botanics recipes.", "Default: true"})
+            public boolean harderAppliedBotanicsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Applied Cooking recipes.", "Default: false"})
-            public boolean harderAppliedCookingRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Applied Cooking recipes.", "Default: true"})
+            public boolean harderAppliedCookingRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Applied Energistics 2 recipes.", "Default: false"})
-            public boolean harderAppliedEnergistics2Recipes = false; // default false
+            @Configurable.Comment({"Whether to harden Applied Energistics 2 recipes.", "Default: true"})
+            public boolean harderAppliedEnergistics2Recipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Applied Mekanistics recipes.", "Default: false"})
-            public boolean harderAppliedMekanisticsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Applied Mekanistics recipes.", "Default: true"})
+            public boolean harderAppliedMekanisticsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Ars Nouveau recipes.", "Default: false"})
-            public boolean harderArsNouveauRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Ars Nouveau recipes.", "Default: true"})
+            public boolean harderArsNouveauRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Ars Énergistique recipes.", "Default: false"})
-            public boolean harderArsÉnergistiqueRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Ars Énergistique recipes.", "Default: true"})
+            public boolean harderArsÉnergistiqueRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Assembly Lines recipes.", "Default: false"})
-            public boolean harderAssemblyLinesRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Assembly Lines recipes.", "Default: true"})
+            public boolean harderAssemblyLinesRecipes = true; // default true
         }
         @Configurable
         public RecipeAddConfigs.ModsBConfig b = new RecipeAddConfigs.ModsBConfig();
 
         public static class ModsBConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden Ballistix recipes.", "Default: false"})
-            public boolean harderBallistixRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Ballistix recipes.", "Default: true"})
+            public boolean harderBallistixRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Better Archeology recipes.", "Default: false"})
-            public boolean harderBetterArcheologyRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Better Archeology recipes.", "Default: true"})
+            public boolean harderBetterArcheologyRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Biomes O' Plenty recipes.", "Default: false"})
-            public boolean harderBiomesOPlentyRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Biomes O' Plenty recipes.", "Default: true"})
+            public boolean harderBiomesOPlentyRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Blastcraft mod recipes.", "Default: false"})
-            public boolean harderBlastcraftModRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Blastcraft mod recipes.", "Default: true"})
+            public boolean harderBlastcraftModRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Botania recipes.", "Default: false"})
-            public boolean harderBotaniaRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Botania recipes.", "Default: true"})
+            public boolean harderBotaniaRecipes = true; // default true
         }
         @Configurable
         public RecipeAddConfigs.ModsCConfig c = new RecipeAddConfigs.ModsCConfig();
 
         public static class ModsCConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden CC Tweaked recipes.", "Default: false"})
-            public boolean harderCCTweakedRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden CC Tweaked recipes.", "Default: true"})
+            public boolean harderCCTweakedRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden CC:C Bridge recipes.", "Default: false"})
-            public boolean harderCCCBridgeRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden CC:C Bridge recipes.", "Default: true"})
+            public boolean harderCCCBridgeRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Chisel and Bits recipes.", "Default: false"})
-            public boolean harderChiselAndBitsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Chisel and Bits recipes.", "Default: true"})
+            public boolean harderChiselAndBitsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Cooking for Blockheads recipes.", "Default: false"})
-            public boolean harderCookingForBlockheadsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Cooking for Blockheads recipes.", "Default: true"})
+            public boolean harderCookingForBlockheadsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Create recipes.", "Default: false"})
-            public boolean harderCreateRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Create recipes.", "Default: true"})
+            public boolean harderCreateRecipes = true; // default true
         }
         @Configurable
         public RecipeAddConfigs.ModsDConfig d = new RecipeAddConfigs.ModsDConfig();
 
         public static class ModsDConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden Domum Omamentum recipes.", "Default: false"})
-            public boolean harderDomumOmamentumRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Domum Omamentum recipes.", "Default: true"})
+            public boolean harderDomumOmamentumRecipes = true; // default true
         }
         @Configurable
         public RecipeAddConfigs.ModsEConfig e = new RecipeAddConfigs.ModsEConfig();
 
         public static class ModsEConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden Electrodynamics recipes.", "Default: false"})
-            public boolean harderElectrodynamicsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Electrodynamics recipes.", "Default: true"})
+            public boolean harderElectrodynamicsRecipes = true; // default true
         }
         @Configurable
         public RecipeAddConfigs.ModsFConfig f = new RecipeAddConfigs.ModsFConfig();
@@ -148,55 +148,55 @@ public class GIConfigHolder {
 
         public static class ModsMConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden ME Requester recipes.", "Default: false"})
-            public boolean harderMERequesterRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden ME Requester recipes.", "Default: true"})
+            public boolean harderMERequesterRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden MEGA Cells recipes.", "Default: false"})
-            public boolean harderMEGACellsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden MEGA Cells recipes.", "Default: true"})
+            public boolean harderMEGACellsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Mekanism recipes.", "Default: false"})
-            public boolean harderMekanismRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Mekanism recipes.", "Default: true"})
+            public boolean harderMekanismRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Mekanism Additions recipes.", "Default: false"})
-            public boolean harderMekanismAdditionsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Mekanism Additions recipes.", "Default: true"})
+            public boolean harderMekanismAdditionsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Mekanism Generators recipes.", "Default: false"})
-            public boolean harderMekanismGeneratorsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Mekanism Generators recipes.", "Default: true"})
+            public boolean harderMekanismGeneratorsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Mekanism Tools recipes.", "Default: false"})
-            public boolean harderMekanismToolsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Mekanism Tools recipes.", "Default: true"})
+            public boolean harderMekanismToolsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Mekanism-MoreSolarPanels recipes.", "Default: false"})
-            public boolean harderMekanismMoreSolarPanelsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Mekanism-MoreSolarPanels recipes.", "Default: true"})
+            public boolean harderMekanismMoreSolarPanelsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Mekanism: Weapons recipes.", "Default: false"})
-            public boolean harderMekanismWeaponsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Mekanism: Weapons recipes.", "Default: true"})
+            public boolean harderMekanismWeaponsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden MineColonies recipes.", "Default: false"})
-            public boolean harderMineColoniesRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden MineColonies recipes.", "Default: true"})
+            public boolean harderMineColoniesRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden MineColonies for ComputerCraft recipes.", "Default: false"})
-            public boolean harderMineColoniesForComputerCraftRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden MineColonies for ComputerCraft recipes.", "Default: true"})
+            public boolean harderMineColoniesForComputerCraftRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Modular Force Fields System recipes.", "Default: false"})
-            public boolean harderModularForceFieldsSystemRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Modular Force Fields System recipes.", "Default: true"})
+            public boolean harderModularForceFieldsSystemRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden More Red recipes.", "Default: false"})
-            public boolean harderMoreRedRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden More Red recipes.", "Default: true"})
+            public boolean harderMoreRedRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden More Red x CC:Tweaked Compat recipes.", "Default: false"})
-            public boolean harderMoreRedXCCTweakedCompatRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden More Red x CC:Tweaked Compat recipes.", "Default: true"})
+            public boolean harderMoreRedXCCTweakedCompatRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Multi-Piston recipes.", "Default: false"})
-            public boolean harderMultiPistonRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Multi-Piston recipes.", "Default: true"})
+            public boolean harderMultiPistonRecipes = true; // default true
         }
         @Configurable
         public RecipeAddConfigs.ModsNConfig n = new RecipeAddConfigs.ModsNConfig();
 
         public static class ModsNConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden Nuclear Science recipes.", "Default: false"})
-            public boolean harderNuclearScienceRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Nuclear Science recipes.", "Default: true"})
+            public boolean harderNuclearScienceRecipes = true; // default true
         }
         @Configurable
         public RecipeAddConfigs.ModsOConfig o = new RecipeAddConfigs.ModsOConfig();
@@ -209,8 +209,8 @@ public class GIConfigHolder {
 
         public static class ModsPConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden Productive Bees recipes.", "Default: false"})
-            public boolean harderProductiveBeesRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Productive Bees recipes.", "Default: true"})
+            public boolean harderProductiveBeesRecipes = true; // default true
         }
         @Configurable
         public RecipeAddConfigs.ModsQConfig q = new RecipeAddConfigs.ModsQConfig();
@@ -223,11 +223,11 @@ public class GIConfigHolder {
 
         public static class ModsRConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden Rechiseled recipes.", "Default: false"})
-            public boolean harderRechiseledRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Rechiseled recipes.", "Default: true"})
+            public boolean harderRechiseledRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Rechiseled Create recipes.", "Default: false"})
-            public boolean harderRechiseledCreateRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Rechiseled Create recipes.", "Default: true"})
+            public boolean harderRechiseledCreateRecipes = true; // default true
         }
         @Configurable
         public RecipeAddConfigs.ModsSConfig s = new RecipeAddConfigs.ModsSConfig();
@@ -240,8 +240,8 @@ public class GIConfigHolder {
 
         public static class ModsTConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden The Twilight Forest recipes.", "Default: false"})
-            public boolean harderTheTwilightForestRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden The Twilight Forest recipes.", "Default: true"})
+            public boolean harderTheTwilightForestRecipes = true; // default true
         }
         @Configurable
         public RecipeAddConfigs.ModsUConfig u = new RecipeAddConfigs.ModsUConfig();
@@ -290,85 +290,85 @@ public class GIConfigHolder {
 
         public static class ModsAConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden AE2WTLib recipes.", "Default: false"})
-            public boolean harderAE2WTLibRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden AE2WTLib recipes.", "Default: true"})
+            public boolean harderAE2WTLibRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Applied Botanics recipes.", "Default: false"})
-            public boolean harderAppliedBotanicsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Applied Botanics recipes.", "Default: true"})
+            public boolean harderAppliedBotanicsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Applied Cooking recipes.", "Default: false"})
-            public boolean harderAppliedCookingRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Applied Cooking recipes.", "Default: true"})
+            public boolean harderAppliedCookingRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Applied Energistics 2 recipes.", "Default: false"})
-            public boolean harderAppliedEnergistics2Recipes = false; // default false
+            @Configurable.Comment({"Whether to harden Applied Energistics 2 recipes.", "Default: true"})
+            public boolean harderAppliedEnergistics2Recipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Applied Mekanistics recipes.", "Default: false"})
-            public boolean harderAppliedMekanisticsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Applied Mekanistics recipes.", "Default: true"})
+            public boolean harderAppliedMekanisticsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Ars Nouveau recipes.", "Default: false"})
-            public boolean harderArsNouveauRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Ars Nouveau recipes.", "Default: true"})
+            public boolean harderArsNouveauRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Ars Énergistique recipes.", "Default: false"})
-            public boolean harderArsÉnergistiqueRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Ars Énergistique recipes.", "Default: true"})
+            public boolean harderArsÉnergistiqueRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Assembly Lines recipes.", "Default: false"})
-            public boolean harderAssemblyLinesRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Assembly Lines recipes.", "Default: true"})
+            public boolean harderAssemblyLinesRecipes = true; // default true
         }
         @Configurable
         public RecipeRemoveConfigs.ModsBConfig b = new RecipeRemoveConfigs.ModsBConfig();
 
         public static class ModsBConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden Ballistix recipes.", "Default: false"})
-            public boolean harderBallistixRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Ballistix recipes.", "Default: true"})
+            public boolean harderBallistixRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Better Archeology recipes.", "Default: false"})
-            public boolean harderBetterArcheologyRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Better Archeology recipes.", "Default: true"})
+            public boolean harderBetterArcheologyRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Biomes O' Plenty recipes.", "Default: false"})
-            public boolean harderBiomesOPlentyRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Biomes O' Plenty recipes.", "Default: true"})
+            public boolean harderBiomesOPlentyRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Blastcraft mod recipes.", "Default: false"})
-            public boolean harderBlastcraftModRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Blastcraft mod recipes.", "Default: true"})
+            public boolean harderBlastcraftModRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Botania recipes.", "Default: false"})
-            public boolean harderBotaniaRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Botania recipes.", "Default: true"})
+            public boolean harderBotaniaRecipes = true; // default true
         }
         @Configurable
         public RecipeRemoveConfigs.ModsCConfig c = new RecipeRemoveConfigs.ModsCConfig();
 
         public static class ModsCConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden CC Tweaked recipes.", "Default: false"})
-            public boolean harderCCTweakedRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden CC Tweaked recipes.", "Default: true"})
+            public boolean harderCCTweakedRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden CC:C Bridge recipes.", "Default: false"})
-            public boolean harderCCCBridgeRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden CC:C Bridge recipes.", "Default: true"})
+            public boolean harderCCCBridgeRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Chisel and Bits recipes.", "Default: false"})
-            public boolean harderChiselAndBitsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Chisel and Bits recipes.", "Default: true"})
+            public boolean harderChiselAndBitsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Cooking for Blockheads recipes.", "Default: false"})
-            public boolean harderCookingForBlockheadsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Cooking for Blockheads recipes.", "Default: true"})
+            public boolean harderCookingForBlockheadsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Create recipes.", "Default: false"})
-            public boolean harderCreateRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Create recipes.", "Default: true"})
+            public boolean harderCreateRecipes = true; // default true
         }
         @Configurable
         public RecipeRemoveConfigs.ModsDConfig d = new RecipeRemoveConfigs.ModsDConfig();
 
         public static class ModsDConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden Domum Omamentum recipes.", "Default: false"})
-            public boolean harderDomumOmamentumRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Domum Omamentum recipes.", "Default: true"})
+            public boolean harderDomumOmamentumRecipes = true; // default true
         }
         @Configurable
         public RecipeRemoveConfigs.ModsEConfig e = new RecipeRemoveConfigs.ModsEConfig();
 
         public static class ModsEConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden Electrodynamics recipes.", "Default: false"})
-            public boolean harderElectrodynamicsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Electrodynamics recipes.", "Default: true"})
+            public boolean harderElectrodynamicsRecipes = true; // default true
         }
         @Configurable
         public RecipeRemoveConfigs.ModsFConfig f = new RecipeRemoveConfigs.ModsFConfig();
@@ -417,55 +417,55 @@ public class GIConfigHolder {
 
         public static class ModsMConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden ME Requester recipes.", "Default: false"})
-            public boolean harderMERequesterRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden ME Requester recipes.", "Default: true"})
+            public boolean harderMERequesterRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden MEGA Cells recipes.", "Default: false"})
-            public boolean harderMEGACellsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden MEGA Cells recipes.", "Default: true"})
+            public boolean harderMEGACellsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Mekanism recipes.", "Default: false"})
-            public boolean harderMekanismRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Mekanism recipes.", "Default: true"})
+            public boolean harderMekanismRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Mekanism Additions recipes.", "Default: false"})
-            public boolean harderMekanismAdditionsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Mekanism Additions recipes.", "Default: true"})
+            public boolean harderMekanismAdditionsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Mekanism Generators recipes.", "Default: false"})
-            public boolean harderMekanismGeneratorsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Mekanism Generators recipes.", "Default: true"})
+            public boolean harderMekanismGeneratorsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Mekanism Tools recipes.", "Default: false"})
-            public boolean harderMekanismToolsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Mekanism Tools recipes.", "Default: true"})
+            public boolean harderMekanismToolsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Mekanism-MoreSolarPanels recipes.", "Default: false"})
-            public boolean harderMekanismMoreSolarPanelsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Mekanism-MoreSolarPanels recipes.", "Default: true"})
+            public boolean harderMekanismMoreSolarPanelsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Mekanism: Weapons recipes.", "Default: false"})
-            public boolean harderMekanismWeaponsRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Mekanism: Weapons recipes.", "Default: true"})
+            public boolean harderMekanismWeaponsRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden MineColonies recipes.", "Default: false"})
-            public boolean harderMineColoniesRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden MineColonies recipes.", "Default: true"})
+            public boolean harderMineColoniesRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden MineColonies for ComputerCraft recipes.", "Default: false"})
-            public boolean harderMineColoniesForComputerCraftRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden MineColonies for ComputerCraft recipes.", "Default: true"})
+            public boolean harderMineColoniesForComputerCraftRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Modular Force Fields System recipes.", "Default: false"})
-            public boolean harderModularForceFieldsSystemRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Modular Force Fields System recipes.", "Default: true"})
+            public boolean harderModularForceFieldsSystemRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden More Red recipes.", "Default: false"})
-            public boolean harderMoreRedRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden More Red recipes.", "Default: true"})
+            public boolean harderMoreRedRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden More Red x CC:Tweaked Compat recipes.", "Default: false"})
-            public boolean harderMoreRedXCCTweakedCompatRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden More Red x CC:Tweaked Compat recipes.", "Default: true"})
+            public boolean harderMoreRedXCCTweakedCompatRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Multi-Piston recipes.", "Default: false"})
-            public boolean harderMultiPistonRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Multi-Piston recipes.", "Default: true"})
+            public boolean harderMultiPistonRecipes = true; // default true
         }
         @Configurable
         public RecipeRemoveConfigs.ModsNConfig n = new RecipeRemoveConfigs.ModsNConfig();
 
         public static class ModsNConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden Nuclear Science recipes.", "Default: false"})
-            public boolean harderNuclearScienceRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Nuclear Science recipes.", "Default: true"})
+            public boolean harderNuclearScienceRecipes = true; // default true
         }
         @Configurable
         public RecipeRemoveConfigs.ModsOConfig o = new RecipeRemoveConfigs.ModsOConfig();
@@ -478,8 +478,8 @@ public class GIConfigHolder {
 
         public static class ModsPConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden Productive Bees recipes.", "Default: false"})
-            public boolean harderProductiveBeesRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Productive Bees recipes.", "Default: true"})
+            public boolean harderProductiveBeesRecipes = true; // default true
         }
         @Configurable
         public RecipeRemoveConfigs.ModsQConfig q = new RecipeRemoveConfigs.ModsQConfig();
@@ -492,11 +492,11 @@ public class GIConfigHolder {
 
         public static class ModsRConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden Rechiseled recipes.", "Default: false"})
-            public boolean harderRechiseledRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Rechiseled recipes.", "Default: true"})
+            public boolean harderRechiseledRecipes = true; // default true
             @Configurable
-            @Configurable.Comment({"Whether to harden Rechiseled Create recipes.", "Default: false"})
-            public boolean harderRechiseledCreateRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden Rechiseled Create recipes.", "Default: true"})
+            public boolean harderRechiseledCreateRecipes = true; // default true
         }
         @Configurable
         public RecipeRemoveConfigs.ModsSConfig s = new RecipeRemoveConfigs.ModsSConfig();
@@ -509,8 +509,8 @@ public class GIConfigHolder {
 
         public static class ModsTConfig{
             @Configurable
-            @Configurable.Comment({"Whether to harden The Twilight Forest recipes.", "Default: false"})
-            public boolean harderTheTwilightForestRecipes = false; // default false
+            @Configurable.Comment({"Whether to harden The Twilight Forest recipes.", "Default: true"})
+            public boolean harderTheTwilightForestRecipes = true; // default true
         }
         @Configurable
         public RecipeRemoveConfigs.ModsUConfig u = new RecipeRemoveConfigs.ModsUConfig();
