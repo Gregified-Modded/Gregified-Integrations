@@ -8,7 +8,7 @@ import java.util.function.Consumer;
 public class ChiselAndBitsRecipeRemoval {
 
     public static void init(Consumer<ResourceLocation> registry) {
-        if (GIConfigHolder.INSTANCE.recipesRemoval.harderChiselAndBitsRemoveRecipes) harderChiselAndBitsRecipes(registry);
+        if (GIConfigHolder.INSTANCE.recipesRemoval.c.harderChiselAndBitsRecipes) harderChiselAndBitsRecipes(registry);
     }
 
     private static void harderChiselAndBitsRecipes(Consumer<ResourceLocation> registry) {

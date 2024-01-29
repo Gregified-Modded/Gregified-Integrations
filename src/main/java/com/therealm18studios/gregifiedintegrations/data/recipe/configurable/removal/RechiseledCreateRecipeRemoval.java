@@ -8,7 +8,7 @@ import java.util.function.Consumer;
 public class RechiseledCreateRecipeRemoval {
 
     public static void init(Consumer<ResourceLocation> registry) {
-        if (GIConfigHolder.INSTANCE.recipesRemoval.harderRechiseledCreateRemoveRecipes) harderRechiseledCreateRecipes(registry);
+        if (GIConfigHolder.INSTANCE.recipesRemoval.r.harderRechiseledCreateRecipes) harderRechiseledCreateRecipes(registry);
     }
 
     private static void harderRechiseledCreateRecipes(Consumer<ResourceLocation> registry) {

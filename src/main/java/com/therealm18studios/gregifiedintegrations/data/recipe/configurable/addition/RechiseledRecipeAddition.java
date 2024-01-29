@@ -16,12 +16,12 @@ public class RechiseledRecipeAddition {
 
     public static void init(Consumer<FinishedRecipe> provider) {
         harderRechiseledRecipes(provider);
-        if (GIConfigHolder.INSTANCE.recipesAdditions.harderRechiseledAddRecipes) harderRechiseledRecipes(provider);
+        if (GIConfigHolder.INSTANCE.recipesAdditions.r.harderRechiseledRecipes) harderRechiseledRecipes(provider);
     }
 
     private static void harderRechiseledRecipes(Consumer<FinishedRecipe> provider) {
 
-        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.harderRechiseledAddRecipes;
+        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.r.harderRechiseledRecipes;
         if (nerfed) {
             VanillaRecipeHelper.addShapedRecipe(provider, "chisel", new ItemStack(Rechiseled.chisel), " P", "S ", 'P', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.WroughtIron), 'S', Items.STICK);
         } else {

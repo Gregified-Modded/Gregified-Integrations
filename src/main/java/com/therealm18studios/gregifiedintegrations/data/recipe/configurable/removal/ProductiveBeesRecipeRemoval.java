@@ -8,7 +8,7 @@ import java.util.function.Consumer;
 public class ProductiveBeesRecipeRemoval {
 
     public static void init(Consumer<ResourceLocation> registry) {
-        if (GIConfigHolder.INSTANCE.recipesRemoval.harderProductiveBeesRemoveRecipes) harderProductiveBeesRecipes(registry);
+        if (GIConfigHolder.INSTANCE.recipesRemoval.p.harderProductiveBeesRecipes) harderProductiveBeesRecipes(registry);
     }
 
     private static void harderProductiveBeesRecipes(Consumer<ResourceLocation> registry) {

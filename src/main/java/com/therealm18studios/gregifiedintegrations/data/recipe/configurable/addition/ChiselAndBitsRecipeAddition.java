@@ -15,13 +15,13 @@ import java.util.function.Consumer;
 public class ChiselAndBitsRecipeAddition {
 
     public static void init(Consumer<FinishedRecipe> provider) {
-        harderRechiseledCreateRecipes(provider);
-        if (GIConfigHolder.INSTANCE.recipesAdditions.harderChiselAndBitsAddRecipes) harderRechiseledCreateRecipes(provider);
+        harderChiselAndBitsRecipes(provider);
+        if (GIConfigHolder.INSTANCE.recipesAdditions.c.harderChiselAndBitsRecipes) harderChiselAndBitsRecipes(provider);
     }
 
-    private static void harderRechiseledCreateRecipes(Consumer<FinishedRecipe> provider) {
+    private static void harderChiselAndBitsRecipes(Consumer<FinishedRecipe> provider) {
 
-        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.harderChiselAndBitsAddRecipes;
+        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.c.harderChiselAndBitsRecipes;
         if (nerfed) {
             VanillaRecipeHelper.addShapedRecipe(provider, "chisel_stone", new ItemStack(ModItems.ITEM_CHISEL_STONE.get()), " T", "S ", 'T', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.Iron), 'S', new UnificationEntry(TagPrefix.rodLong, GTMaterials.Potin));
             VanillaRecipeHelper.addShapedRecipe(provider, "chisel_iron", new ItemStack(ModItems.ITEM_CHISEL_IRON.get()), " T", "S ", 'T', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.IronMagnetic), 'S', new UnificationEntry(TagPrefix.rodLong, GTMaterials.Potin));

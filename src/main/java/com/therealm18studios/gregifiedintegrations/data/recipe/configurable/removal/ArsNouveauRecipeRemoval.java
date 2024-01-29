@@ -8,7 +8,7 @@ import java.util.function.Consumer;
 public class ArsNouveauRecipeRemoval {
 
     public static void init(Consumer<ResourceLocation> registry) {
-        if (GIConfigHolder.INSTANCE.recipesRemoval.harderArsNouveauRemoveRecipes) harderArsNouveauRecipes(registry);
+        if (GIConfigHolder.INSTANCE.recipesRemoval.a.harderArsNouveauRecipes) harderArsNouveauRecipes(registry);
     }
 
     private static void harderArsNouveauRecipes(Consumer<ResourceLocation> registry) {

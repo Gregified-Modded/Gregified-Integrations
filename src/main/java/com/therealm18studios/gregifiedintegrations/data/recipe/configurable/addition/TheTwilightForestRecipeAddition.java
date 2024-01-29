@@ -24,12 +24,12 @@ public class TheTwilightForestRecipeAddition {
 
     public static void init(Consumer<FinishedRecipe> provider) {
         harderTheTwilightForestRecipes(provider);
-        if (GIConfigHolder.INSTANCE.recipesAdditions.harderTheTwilightForestAddRecipes) harderTheTwilightForestRecipes(provider);
+        if (GIConfigHolder.INSTANCE.recipesAdditions.t.harderTheTwilightForestRecipes) harderTheTwilightForestRecipes(provider);
     }
 
     private static void harderTheTwilightForestRecipes(Consumer<FinishedRecipe> provider) {
 
-        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.harderTheTwilightForestAddRecipes;
+        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.t.harderTheTwilightForestRecipes;
         if (nerfed) {
             VanillaRecipeHelper.addShapedRecipe(provider, "canopy_boat", new ItemStack(TFItems.CANOPY_BOAT.get()), "PHP", "PkP", "SSS", 'P', new ItemStack(TFBlocks.CANOPY_PLANKS.get()), 'S', new ItemStack(TFBlocks.CANOPY_SLAB.get()), 'H', new ItemStack(Items.WOODEN_SHOVEL));
             VanillaRecipeHelper.addShapedRecipe(provider, "canopy_button", new ItemStack(TFBlocks.CANOPY_BUTTON.get(), 6), "sP", 'P', TFBlocks.CANOPY_PLANKS.get());

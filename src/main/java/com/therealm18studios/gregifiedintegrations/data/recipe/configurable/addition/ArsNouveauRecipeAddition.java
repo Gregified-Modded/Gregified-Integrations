@@ -23,12 +23,12 @@ public class ArsNouveauRecipeAddition {
 
     public static void init(Consumer<FinishedRecipe> provider) {
         harderArsNouveauRecipes(provider);
-        if (GIConfigHolder.INSTANCE.recipesAdditions.harderArsNouveauAddRecipes) harderArsNouveauRecipes(provider);
+        if (GIConfigHolder.INSTANCE.recipesAdditions.a.harderArsNouveauRecipes) harderArsNouveauRecipes(provider);
     }
 
     private static void harderArsNouveauRecipes(Consumer<FinishedRecipe> provider) {
 
-        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.harderArsNouveauAddRecipes;
+        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.a.harderArsNouveauRecipes;
         if (nerfed) {
             VanillaRecipeHelper.addShapedRecipe(provider, "archwood_button", new ItemStack(BlockRegistry.ARCHWOOD_BUTTON, 6), "sP", 'P', BlockRegistry.ARCHWOOD_PLANK);
             VanillaRecipeHelper.addShapedRecipe(provider, "archwood_chest", new ItemStack(BlockRegistry.ARCHWOOD_CHEST), "FFF", "FCF", "FFF", 'F', ArsNouveauTags.ModTags.ARSNOUVEAU_ARCHWOOD, 'C', ForgeTags.ModTags.FORGE_WOODEN_CHESTS);

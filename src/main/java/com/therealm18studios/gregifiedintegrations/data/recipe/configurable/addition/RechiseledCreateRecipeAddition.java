@@ -16,12 +16,12 @@ public class RechiseledCreateRecipeAddition {
 
     public static void init(Consumer<FinishedRecipe> provider) {
         harderRechiseledCreateRecipes(provider);
-        if (GIConfigHolder.INSTANCE.recipesAdditions.harderRechiseledCreateAddRecipes) harderRechiseledCreateRecipes(provider);
+        if (GIConfigHolder.INSTANCE.recipesAdditions.r.harderRechiseledCreateRecipes) harderRechiseledCreateRecipes(provider);
     }
 
     private static void harderRechiseledCreateRecipes(Consumer<FinishedRecipe> provider) {
 
-        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.harderRechiseledCreateAddRecipes;
+        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.r.harderRechiseledCreateRecipes;
         if (nerfed) {
             VanillaRecipeHelper.addShapedRecipe(provider, "mechanical_chisel", new ItemStack(RechiseledCreate.mechanical_chisel), "ABC", "DED", 'A', GTItems.CONVEYOR_MODULE_LV, 'B', GTBlocks.MACHINE_CASING_LV, 'C', GTItems.ELECTRIC_MOTOR_LV, 'D', GregTechCEuTags.ModTags.GTCEU_CIRCUITS_LV, 'E', Rechiseled.chisel);
         } else {

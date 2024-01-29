@@ -19,12 +19,12 @@ public class CCTweakedRecipeAddition {
 
     public static void init(Consumer<FinishedRecipe> provider) {
         harderCCTweakedRecipes(provider);
-        if (GIConfigHolder.INSTANCE.recipesAdditions.harderCCTweakedAddRecipes) harderCCTweakedRecipes(provider);
+        if (GIConfigHolder.INSTANCE.recipesAdditions.c.harderCCTweakedRecipes) harderCCTweakedRecipes(provider);
     }
 
     private static void harderCCTweakedRecipes(Consumer<FinishedRecipe> provider){
 
-        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.harderCCTweakedAddRecipes;
+        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.c.harderCCTweakedRecipes;
         if (nerfed) {
             VanillaRecipeHelper.addShapedRecipe(provider, "cable", new ItemStack(ModRegistry.Items.CABLE.get(), 4), "CCC", "CPC", "CCC", 'P', new UnificationEntry(TagPrefix.wireFine, GTMaterials.RedAlloy), 'C', GTItems.CARBON_FIBER_PLATE);
             VanillaRecipeHelper.addShapedRecipe(provider, "computer_advanced", new ItemStack(ModRegistry.Blocks.COMPUTER_ADVANCED.get()), "PCP", "PMP", "SCS", 'P', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.TantalumCarbide), 'C', GregTechCEuTags.ModTags.GTCEU_CIRCUITS_ZPM, 'S', GTItems.TOOL_DATA_ORB.asStack(), 'M', GTItems.COVER_MACHINE_CONTROLLER.asStack());

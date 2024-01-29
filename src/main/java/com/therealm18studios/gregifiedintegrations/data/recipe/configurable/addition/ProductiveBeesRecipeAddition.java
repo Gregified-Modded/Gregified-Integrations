@@ -15,12 +15,12 @@ public class ProductiveBeesRecipeAddition {
 
     public static void init(Consumer<FinishedRecipe> provider) {
         harderProductiveBeesRecipes(provider);
-        if (GIConfigHolder.INSTANCE.recipesAdditions.harderProductiveBeesAddRecipes) harderProductiveBeesRecipes(provider);
+        if (GIConfigHolder.INSTANCE.recipesAdditions.p.harderProductiveBeesRecipes) harderProductiveBeesRecipes(provider);
     }
 
     private static void harderProductiveBeesRecipes(Consumer<FinishedRecipe> provider) {
 
-        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.harderProductiveBeesAddRecipes;
+        boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.p.harderProductiveBeesRecipes;
         if (nerfed) {
             GTRecipeTypes.ASSEMBLER_RECIPES.recipeBuilder("nests/acacia_wood_nest").inputItems(new ItemStack(Blocks.ACACIA_WOOD,64)).inputFluids(GTMaterials.Oxygen.getFluid(GTValues.LV * 1000)).outputItems(ModBlocks.ACACIA_WOOD_NEST).duration(400).EUt(4).save(provider);
             GTRecipeTypes.ASSEMBLER_RECIPES.recipeBuilder("nests/bamboo_nest").inputItems(new ItemStack(Blocks.BAMBOO_BLOCK,64)).inputFluids(GTMaterials.Oxygen.getFluid(GTValues.LV * 1000)).outputItems(ModBlocks.BAMBOO_HIVE).duration(400).EUt(4).save(provider);
