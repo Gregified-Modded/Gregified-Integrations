@@ -33,6 +33,7 @@
   "config.tr18sgi.option.z": "Mods that start with Z",
 
   "_comment3": "Recipe Add and Remove Mod Names",
+  "config.tr18sgi.option.harderAE2WTLibRecipes": "AE2WTLib (Both Support)",
   "config.tr18sgi.option.harderArsNouveauRecipes": "Ars Nouveau (Both Support)",
   "config.tr18sgi.option.harderBiomesOPlentyRecipes": "Biomes O' Plenty (Both Support)",
   "config.tr18sgi.option.harderCCTweakedRecipes": "CC: Tweaked (Both Support)",
@@ -43,7 +44,6 @@
   "config.tr18sgi.option.harderTheTwilightForestRecipes": "The Twilight Forest (Both Support)",
 
   "_comment4": "Recipe Remove Mod Names only",
-  "config.tr18sgi.option.harderAE2WTLibRecipes": "AE2WTLib (Removal Support)",
   "config.tr18sgi.option.harderAppliedBotanicsRecipes": "Applied Botanics (Removal Support)",
   "config.tr18sgi.option.harderAppliedCookingRecipes": "Applied Cooking (Removal Support)",
   "config.tr18sgi.option.harderAppliedEnergistics2Recipes": "Applied Energistics 2 (Some Removal Support)",
