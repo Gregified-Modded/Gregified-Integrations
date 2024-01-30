@@ -23,7 +23,7 @@ public class RechiseledCreateRecipeAddition {
 
         boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.r.harderRechiseledCreateRecipes;
         if (nerfed) {
-            VanillaRecipeHelper.addShapedRecipe(provider, "mechanical_chisel", new ItemStack(RechiseledCreate.mechanical_chisel), "ABC", "DED", 'A', GTItems.CONVEYOR_MODULE_LV, 'B', GTBlocks.MACHINE_CASING_LV, 'C', GTItems.ELECTRIC_MOTOR_LV, 'D', GregTechCEuTags.ModTags.GTCEU_CIRCUITS_LV, 'E', Rechiseled.chisel);
+            VanillaRecipeHelper.addShapedRecipe(provider, "rechiseledcreate/mechanical_chisel", new ItemStack(RechiseledCreate.mechanical_chisel), "ABC", "DED", 'A', GTItems.CONVEYOR_MODULE_LV, 'B', GTBlocks.MACHINE_CASING_LV, 'C', GTItems.ELECTRIC_MOTOR_LV, 'D', GregTechCEuTags.ModTags.GTCEU_CIRCUITS_LV, 'E', Rechiseled.chisel);
         } else {
 
         }

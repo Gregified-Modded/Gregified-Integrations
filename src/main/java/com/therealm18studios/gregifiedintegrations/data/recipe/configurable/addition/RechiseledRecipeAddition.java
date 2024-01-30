@@ -23,7 +23,7 @@ public class RechiseledRecipeAddition {
 
         boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.r.harderRechiseledRecipes;
         if (nerfed) {
-            VanillaRecipeHelper.addShapedRecipe(provider, "chisel", new ItemStack(Rechiseled.chisel), " P", "S ", 'P', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.WroughtIron), 'S', Items.STICK);
+            VanillaRecipeHelper.addShapedRecipe(provider, "rechiseled/chisel", new ItemStack(Rechiseled.chisel), " P", "S ", 'P', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.WroughtIron), 'S', Items.STICK);
         } else {
 
         }
