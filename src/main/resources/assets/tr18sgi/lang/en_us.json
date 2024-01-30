@@ -56,6 +56,7 @@
   "config.tr18sgi.option.harderMekanismMoreSolarPanelsRecipes": "Mekanism More Solar Panels (Removal Support)",
   "config.tr18sgi.option.harderMekanismWeaponsRecipes": "Mekanism Weapons (Removal Support)",
   "config.tr18sgi.option.harderMERequesterRecipes": "ME Requester (Removal Support)",
+  "config.tr18sgi.option.harderMineColoniesRecipes": "MineColonies (Removal Support)",
   "config.tr18sgi.option.harderMineColoniesForComputerCraftRecipes": "MineColonies For ComputerCraft (Removal Support)",
   "config.tr18sgi.option.harderMultiPistonRecipes": "Multi Piston (Removal Support)",
 
@@ -71,7 +72,6 @@
   "config.tr18sgi.option.harderMekanismAdditionsRecipes": "Mekanism Additions (Nothing Yet)",
   "config.tr18sgi.option.harderMekanismGeneratorsRecipes": "Mekanism Generators (Nothing Yet)",
   "config.tr18sgi.option.harderMekanismToolsRecipes": "Mekanism Tools (Nothing Yet)",
-  "config.tr18sgi.option.harderMineColoniesRecipes": "MineColonies (Nothing Yet)",
   "config.tr18sgi.option.harderModularForceFieldsSystemRecipes": "Modular Force Fields System (Nothing Yet)",
   "config.tr18sgi.option.harderMoreRedRecipes": "More Red (Nothing Yet)",
   "config.tr18sgi.option.harderNuclearScienceRecipes": "Nuclear Science (Nothing Yet)"

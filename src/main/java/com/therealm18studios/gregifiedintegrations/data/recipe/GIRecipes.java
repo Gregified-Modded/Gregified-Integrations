@@ -35,12 +35,13 @@ public class GIRecipes {
         if (Platform.isModLoaded("biomesoplenty")) BiomesOPlentyRecipeRemoval.init(provider);
         if (Platform.isModLoaded("cccbridge")) CCCBridgeRecipeRemoval.init(provider);
         if (Platform.isModLoaded("chiselsandbits")) ChiselAndBitsRecipeRemoval.init(provider);
-        if (Platform.isModLoaded("colony4cc")) CCTweakedRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("colony4cc")) MineColoniesForComputerCraftRecipeRemoval.init(provider);
         if (Platform.isModLoaded("computercraft")) CCTweakedRecipeRemoval.init(provider);
         if (Platform.isModLoaded("cookingforblockheads")) CookingForBlockheadsRecipeRemoval.init(provider);
         if (Platform.isModLoaded("mekaweapons")) MekanismWeaponsRecipeRemoval.init(provider);
         if (Platform.isModLoaded("merequester")) MERequesterRecipeRemoval.init(provider);
         if (Platform.isModLoaded("multipiston")) MultiPistonRecipeRemoval.init(provider);
+        if (Platform.isModLoaded("minecolonies")) MineColoniesRecipeRemoval.init(provider);
         if (Platform.isModLoaded("productivebees")) ProductiveBeesRecipeRemoval.init(provider);
         if (Platform.isModLoaded("rechiseled")) RechiseledRecipeRemoval.init(provider);
         if (Platform.isModLoaded("rechiseledcreate")) RechiseledCreateRecipeRemoval.init(provider);
