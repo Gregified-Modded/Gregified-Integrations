@@ -12,6 +12,7 @@ public class BiomesOPlentyRecipeRemoval {
     }
 
     private static void harderBiomesOPlentyRecipes(Consumer<ResourceLocation> registry){
+        registry.accept(new ResourceLocation("biomesoplenty:dead_boat"));
         registry.accept(new ResourceLocation("biomesoplenty:dead_button"));
         registry.accept(new ResourceLocation("biomesoplenty:dead_chest"));
         registry.accept(new ResourceLocation("biomesoplenty:dead_door"));
@@ -20,6 +21,7 @@ public class BiomesOPlentyRecipeRemoval {
         registry.accept(new ResourceLocation("biomesoplenty:dead_planks"));
         registry.accept(new ResourceLocation("biomesoplenty:dead_pressure_plate"));
         registry.accept(new ResourceLocation("biomesoplenty:dead_trapdoor"));
+        registry.accept(new ResourceLocation("biomesoplenty:fir_boat"));
         registry.accept(new ResourceLocation("biomesoplenty:fir_button"));
         registry.accept(new ResourceLocation("biomesoplenty:fir_chest"));
         registry.accept(new ResourceLocation("biomesoplenty:fir_door"));
@@ -28,6 +30,7 @@ public class BiomesOPlentyRecipeRemoval {
         registry.accept(new ResourceLocation("biomesoplenty:fir_planks"));
         registry.accept(new ResourceLocation("biomesoplenty:fir_pressure_plate"));
         registry.accept(new ResourceLocation("biomesoplenty:fir_trapdoor"));
+        registry.accept(new ResourceLocation("biomesoplenty:hellbark_boat"));
         registry.accept(new ResourceLocation("biomesoplenty:hellbark_button"));
         registry.accept(new ResourceLocation("biomesoplenty:hellbark_chest"));
         registry.accept(new ResourceLocation("biomesoplenty:hellbark_door"));
@@ -36,6 +39,7 @@ public class BiomesOPlentyRecipeRemoval {
         registry.accept(new ResourceLocation("biomesoplenty:hellbark_planks"));
         registry.accept(new ResourceLocation("biomesoplenty:hellbark_pressure_plate"));
         registry.accept(new ResourceLocation("biomesoplenty:hellbark_trapdoor"));
+        registry.accept(new ResourceLocation("biomesoplenty:jacaranda_boat"));
         registry.accept(new ResourceLocation("biomesoplenty:jacaranda_button"));
         registry.accept(new ResourceLocation("biomesoplenty:jacaranda_chest"));
         registry.accept(new ResourceLocation("biomesoplenty:jacaranda_door"));
@@ -44,6 +48,7 @@ public class BiomesOPlentyRecipeRemoval {
         registry.accept(new ResourceLocation("biomesoplenty:jacaranda_planks"));
         registry.accept(new ResourceLocation("biomesoplenty:jacaranda_pressure_plate"));
         registry.accept(new ResourceLocation("biomesoplenty:jacaranda_trapdoor"));
+        registry.accept(new ResourceLocation("biomesoplenty:magic_boat"));
         registry.accept(new ResourceLocation("biomesoplenty:magic_button"));
         registry.accept(new ResourceLocation("biomesoplenty:magic_chest"));
         registry.accept(new ResourceLocation("biomesoplenty:magic_door"));
@@ -52,6 +57,7 @@ public class BiomesOPlentyRecipeRemoval {
         registry.accept(new ResourceLocation("biomesoplenty:magic_planks"));
         registry.accept(new ResourceLocation("biomesoplenty:magic_pressure_plate"));
         registry.accept(new ResourceLocation("biomesoplenty:magic_trapdoor"));
+        registry.accept(new ResourceLocation("biomesoplenty:mahogany_boat"));
         registry.accept(new ResourceLocation("biomesoplenty:mahogany_button"));
         registry.accept(new ResourceLocation("biomesoplenty:mahogany_chest"));
         registry.accept(new ResourceLocation("biomesoplenty:mahogany_door"));
@@ -60,6 +66,7 @@ public class BiomesOPlentyRecipeRemoval {
         registry.accept(new ResourceLocation("biomesoplenty:mahogany_planks"));
         registry.accept(new ResourceLocation("biomesoplenty:mahogany_pressure_plate"));
         registry.accept(new ResourceLocation("biomesoplenty:mahogany_trapdoor"));
+        registry.accept(new ResourceLocation("biomesoplenty:palm_boat"));
         registry.accept(new ResourceLocation("biomesoplenty:palm_button"));
         registry.accept(new ResourceLocation("biomesoplenty:palm_chest"));
         registry.accept(new ResourceLocation("biomesoplenty:palm_door"));
@@ -68,6 +75,7 @@ public class BiomesOPlentyRecipeRemoval {
         registry.accept(new ResourceLocation("biomesoplenty:palm_planks"));
         registry.accept(new ResourceLocation("biomesoplenty:palm_pressure_plate"));
         registry.accept(new ResourceLocation("biomesoplenty:palm_trapdoor"));
+        registry.accept(new ResourceLocation("biomesoplenty:redwood_boat"));
         registry.accept(new ResourceLocation("biomesoplenty:redwood_button"));
         registry.accept(new ResourceLocation("biomesoplenty:redwood_chest"));
         registry.accept(new ResourceLocation("biomesoplenty:redwood_door"));
@@ -76,6 +84,7 @@ public class BiomesOPlentyRecipeRemoval {
         registry.accept(new ResourceLocation("biomesoplenty:redwood_planks"));
         registry.accept(new ResourceLocation("biomesoplenty:redwood_pressure_plate"));
         registry.accept(new ResourceLocation("biomesoplenty:redwood_trapdoor"));
+        registry.accept(new ResourceLocation("biomesoplenty:umbran_boat"));
         registry.accept(new ResourceLocation("biomesoplenty:umbran_button"));
         registry.accept(new ResourceLocation("biomesoplenty:umbran_chest"));
         registry.accept(new ResourceLocation("biomesoplenty:umbran_door"));
@@ -84,6 +93,7 @@ public class BiomesOPlentyRecipeRemoval {
         registry.accept(new ResourceLocation("biomesoplenty:umbran_planks"));
         registry.accept(new ResourceLocation("biomesoplenty:umbran_pressure_plate"));
         registry.accept(new ResourceLocation("biomesoplenty:umbran_trapdoor"));
+        registry.accept(new ResourceLocation("biomesoplenty:willow_boat"));
         registry.accept(new ResourceLocation("biomesoplenty:willow_button"));
         registry.accept(new ResourceLocation("biomesoplenty:willow_chest"));
         registry.accept(new ResourceLocation("biomesoplenty:willow_door"));
