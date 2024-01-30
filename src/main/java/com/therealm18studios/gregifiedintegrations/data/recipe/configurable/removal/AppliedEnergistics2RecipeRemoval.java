@@ -5,7 +5,7 @@ import net.minecraft.resources.ResourceLocation;
 
 import java.util.function.Consumer;
 
-//TODO: blasting, block_cutting, charger, decorative, entropy, inscriber, materials, matter_cannon, misc, smelting, special, transformation
+//TODO: block_cutting, matter_cannon, special, transformation
 public class AppliedEnergistics2RecipeRemoval {
 
     public static void init(Consumer<ResourceLocation> registry) {
@@ -13,6 +13,80 @@ public class AppliedEnergistics2RecipeRemoval {
     }
 
     private static void harderAppliedEnergistics2Recipes(Consumer<ResourceLocation> registry) {
+        registry.accept(new ResourceLocation("ae2:blasting/silicon_from_certus_quartz_dust"));
+        registry.accept(new ResourceLocation("ae2:blasting/sky_stone_block"));
+        registry.accept(new ResourceLocation("ae2:charger/charged_certus_quartz_crystal"));
+        registry.accept(new ResourceLocation("ae2:charger/guide"));
+        registry.accept(new ResourceLocation("ae2:charger/metorite_compass"));
+        registry.accept(new ResourceLocation("ae2:decorative/certus_quartz_bricks"));
+        registry.accept(new ResourceLocation("ae2:decorative/certus_quartz_bricks_from_stonecutting"));
+        registry.accept(new ResourceLocation("ae2:decorative/certus_quartz_pillar"));
+        registry.accept(new ResourceLocation("ae2:decorative/certus_quartz_pillar_from_stonecutting"));
+        registry.accept(new ResourceLocation("ae2:decorative/chiseled_quartz_block"));
+        registry.accept(new ResourceLocation("ae2:decorative/chiseled_quartz_block_from_stonecutting"));
+        registry.accept(new ResourceLocation("ae2:decorative/cut_quartz_block"));
+        registry.accept(new ResourceLocation("ae2:decorative/cut_quartz_block_from_stonecutting"));
+        registry.accept(new ResourceLocation("ae2:decorative/fluix_block"));
+        registry.accept(new ResourceLocation("ae2:decorative/light_detector"));
+        registry.accept(new ResourceLocation("ae2:decorative/quartz_block"));
+        registry.accept(new ResourceLocation("ae2:decorative/quartz_fixture"));
+        registry.accept(new ResourceLocation("ae2:decorative/quartz_glass"));
+        registry.accept(new ResourceLocation("ae2:decorative/quartz_vibrant_glass"));
+        registry.accept(new ResourceLocation("ae2:decorative/sky_stone_brick"));
+        registry.accept(new ResourceLocation("ae2:decorative/sky_stone_brick_from_stonecutting"));
+        registry.accept(new ResourceLocation("ae2:decorative/sky_stone_small_brick"));
+        registry.accept(new ResourceLocation("ae2:decorative/sky_stone_small_brick_from_stonecutting"));
+        registry.accept(new ResourceLocation("ae2:decorative/smooth_quartz_block"));
+        registry.accept(new ResourceLocation("ae2:entropy/cool/flowing_water_snowball"));
+        registry.accept(new ResourceLocation("ae2:entropy/cool/grass_block_dirt"));
+        registry.accept(new ResourceLocation("ae2:entropy/cool/lava_obsidian"));
+        registry.accept(new ResourceLocation("ae2:entropy/cool/stone_bricks_cracked_stone_bricks"));
+        registry.accept(new ResourceLocation("ae2:entropy/cool/stone_cobblestone"));
+        registry.accept(new ResourceLocation("ae2:entropy/cool/water_ice"));
+        registry.accept(new ResourceLocation("ae2:entropy/heat/cobblestone_stone"));
+        registry.accept(new ResourceLocation("ae2:entropy/heat/ice_water"));
+        registry.accept(new ResourceLocation("ae2:entropy/heat/snow_water"));
+        registry.accept(new ResourceLocation("ae2:entropy/heat/water_air"));
+        registry.accept(new ResourceLocation("ae2:inscriber/calculation_processor"));
+        registry.accept(new ResourceLocation("ae2:inscriber/calculation_processor_press"));
+        registry.accept(new ResourceLocation("ae2:inscriber/calculation_processor_print"));
+        registry.accept(new ResourceLocation("ae2:inscriber/certus_quartz_dust"));
+        registry.accept(new ResourceLocation("ae2:inscriber/ender_dust"));
+        registry.accept(new ResourceLocation("ae2:inscriber/engineering_processor"));
+        registry.accept(new ResourceLocation("ae2:inscriber/engineering_processor_press"));
+        registry.accept(new ResourceLocation("ae2:inscriber/engineering_processor_print"));
+        registry.accept(new ResourceLocation("ae2:inscriber/fluix_dust"));
+        registry.accept(new ResourceLocation("ae2:inscriber/logic_processor"));
+        registry.accept(new ResourceLocation("ae2:inscriber/logic_processor_press"));
+        registry.accept(new ResourceLocation("ae2:inscriber/logic_processor_print"));
+        registry.accept(new ResourceLocation("ae2:inscriber/silicon_press"));
+        registry.accept(new ResourceLocation("ae2:inscriber/silicon_print"));
+        registry.accept(new ResourceLocation("ae2:inscriber/sky_stone_dust"));
+        registry.accept(new ResourceLocation("ae2:material/advancedcard"));
+        registry.accept(new ResourceLocation("ae2:material/annihilationcore"));
+        registry.accept(new ResourceLocation("ae2:material/basiccard"));
+        registry.accept(new ResourceLocation("ae2:material/cardcapacity"));
+        registry.accept(new ResourceLocation("ae2:material/cardcrafting"));
+        registry.accept(new ResourceLocation("ae2:material/carddistribution"));
+        registry.accept(new ResourceLocation("ae2:material/cardenergy"));
+        registry.accept(new ResourceLocation("ae2:material/cardfuzzy"));
+        registry.accept(new ResourceLocation("ae2:material/inverted"));
+        registry.accept(new ResourceLocation("ae2:material/redstone"));
+        registry.accept(new ResourceLocation("ae2:material/speed"));
+        registry.accept(new ResourceLocation("ae2:material/void"));
+        registry.accept(new ResourceLocation("ae2:material/formationcore"));
+        registry.accept(new ResourceLocation("ae2:misc/chests_sky_stone"));
+        registry.accept(new ResourceLocation("ae2:misc/chests_smooth_sky_stone"));
+        registry.accept(new ResourceLocation("ae2:misc/deconstruction_certus_quartz_block"));
+        registry.accept(new ResourceLocation("ae2:misc/deconstruction_certus_quartz_brick"));
+        registry.accept(new ResourceLocation("ae2:misc/deconstruction_certus_quartz_pillar"));
+        registry.accept(new ResourceLocation("ae2:misc/deconstruction_chiseled_certus_quartz"));
+        registry.accept(new ResourceLocation("ae2:misc/deconstruction_cut_certus_quartz_block"));
+        registry.accept(new ResourceLocation("ae2:misc/deconstruction_fluix_block"));
+        registry.accept(new ResourceLocation("ae2:misc/deconstruction+smooth_certus_quartz_block"));
+        registry.accept(new ResourceLocation("ae2:misc/fluixpearl"));
+        registry.accept(new ResourceLocation("ae2:misc/tank_sky_stone"));
+        registry.accept(new ResourceLocation("ae2:misc/tiny_tnt"));
         registry.accept(new ResourceLocation("ae2:network/blocks/cell_workbench"));
         registry.accept(new ResourceLocation("ae2:network/blocks/controller"));
         registry.accept(new ResourceLocation("ae2:network/blocks/crank"));
@@ -199,6 +273,8 @@ public class AppliedEnergistics2RecipeRemoval {
         registry.accept(new ResourceLocation("ae2:network/wireless_crafting_terminal"));
         registry.accept(new ResourceLocation("ae2:network/wireless_part"));
         registry.accept(new ResourceLocation("ae2:network/wireless_terminal"));
+        registry.accept(new ResourceLocation("ae2:smelting/silicon_from_certus_quartz_dust"));
+        registry.accept(new ResourceLocation("ae2:smelting/smooth_sky_stone_block"));
         registry.accept(new ResourceLocation("ae2:tools/certus_quartz_axe"));
         registry.accept(new ResourceLocation("ae2:tools/certus_quartz_cutting_knife"));
         registry.accept(new ResourceLocation("ae2:tools/certus_quartz_hoe"));
