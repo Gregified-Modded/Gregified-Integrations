@@ -12,6 +12,7 @@ public class GIRecipes {
 
     public static void newInit(Consumer<FinishedRecipe> provider) {
 
+        if (Platform.isModLoaded("ae2wtlib")) AE2WTLibRecipeAddition.init(provider);
         if (Platform.isModLoaded("ars_nouveau")) ArsNouveauRecipeAddition.init(provider);
         if (Platform.isModLoaded("biomesoplenty")) BiomesOPlentyRecipeAddition.init(provider);
         if (Platform.isModLoaded("computercraft")) CCTweakedRecipeAddition.init(provider);
