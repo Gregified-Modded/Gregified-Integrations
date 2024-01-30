@@ -26,10 +26,10 @@ public class AE2WTLibRecipeAddition {
 
         boolean nerfed = GIConfigHolder.INSTANCE.recipesAdditions.a.harderAE2WTLibRecipes;
         if (nerfed) {
-            VanillaRecipeHelper.addShapedRecipe(provider, "ae2wtlib/magnet_card", new ItemStack(AE2wtlib.MAGNET_CARD), "aba", "ded", "ddd", 'a', new UnificationEntry(TagPrefix.wireFine, GTMaterials.RedAlloy), 'b', AEParts.ANNIHILATION_PLANE, 'd', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.IronMagnetic), 'e', AEItems.ADVANCED_CARD);
-            VanillaRecipeHelper.addShapedRecipe(provider, "ae2wtlib/quantum_bridge_card", new ItemStack(AE2wtlib.QUANTUM_BRIDGE_CARD), "aaa", "aba", "aaa", 'b', new UnificationEntry(TagPrefix.wireFine, GTMaterials.RedAlloy), 'a', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.IronMagnetic));
-            VanillaRecipeHelper.addShapedRecipe(provider, "ae2wtlib/wireless_pattern_encoding_terminal", new ItemStack(AE2wtlib.PATTERN_ENCODING_TERMINAL), "aaa", "aba", "aaa", 'a', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.IronMagnetic), 'b', AEParts.PATTERN_ENCODING_TERMINAL);
-            VanillaRecipeHelper.addShapedRecipe(provider, "ae2wtlib/wireless_pattern_access_terminal", new ItemStack(AE2wtlib.PATTERN_ACCESS_TERMINAL), "aaa", "aba", "aaa", 'a', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.IronMagnetic), 'b', AEParts.PATTERN_ACCESS_TERMINAL);
+            VanillaRecipeHelper.addShapedRecipe(provider, "ae2wtlib/magnet_card", new ItemStack(AE2wtlib.MAGNET_CARD), "ABA", "CDC", "CCC", 'A', new UnificationEntry(TagPrefix.wireFine, GTMaterials.RedAlloy), 'B', AEParts.ANNIHILATION_PLANE, 'C', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.IronMagnetic), 'D', AEItems.ADVANCED_CARD);
+            VanillaRecipeHelper.addShapedRecipe(provider, "ae2wtlib/quantum_bridge_card", new ItemStack(AE2wtlib.QUANTUM_BRIDGE_CARD), "AAA", "ABA", "AAA", 'A', new UnificationEntry(TagPrefix.wireFine, GTMaterials.RedAlloy), 'A', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.IronMagnetic));
+            VanillaRecipeHelper.addShapedRecipe(provider, "ae2wtlib/wireless_pattern_encoding_terminal", new ItemStack(AE2wtlib.PATTERN_ENCODING_TERMINAL), "AAA", "ABA", "AAA", 'A', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.IronMagnetic), 'B', AEParts.PATTERN_ENCODING_TERMINAL);
+            VanillaRecipeHelper.addShapedRecipe(provider, "ae2wtlib/wireless_pattern_access_terminal", new ItemStack(AE2wtlib.PATTERN_ACCESS_TERMINAL), "AAA", "ABA", "AAA", 'A', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.IronMagnetic), 'B', AEParts.PATTERN_ACCESS_TERMINAL);
         } else {
 
         }
