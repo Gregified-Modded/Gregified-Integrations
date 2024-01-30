@@ -15,7 +15,7 @@ public class GIRecipes {
         if (Platform.isModLoaded("ars_nouveau")) ArsNouveauRecipeAddition.init(provider);
         if (Platform.isModLoaded("biomesoplenty")) BiomesOPlentyRecipeAddition.init(provider);
         if (Platform.isModLoaded("computercraft")) CCTweakedRecipeAddition.init(provider);
-        if (Platform.isModLoaded("chiselsandbits")) ChiselAndBitsRecipeAddition.init(provider);
+        if (Platform.isModLoaded("chiselsandbits")) ChiselsAndBitsRecipeAddition.init(provider);
         if (Platform.isModLoaded("productivebees")) ProductiveBeesRecipeAddition.init(provider);
         if (Platform.isModLoaded("rechiseled")) RechiseledRecipeAddition.init(provider);
         if (Platform.isModLoaded("rechiseledcreate")) RechiseledCreateRecipeAddition.init(provider);
