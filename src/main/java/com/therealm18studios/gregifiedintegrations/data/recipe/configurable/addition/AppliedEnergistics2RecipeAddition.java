@@ -39,6 +39,7 @@ public class AppliedEnergistics2RecipeAddition {
             VanillaRecipeHelper.addShapedRecipe(provider, "ae2/misc/chests_smooth_sky_stone", new ItemStack(AEBlocks.SMOOTH_SKY_STONE_BLOCK), "FFF", "FCF", "FFF", 'F', AEBlocks.SMOOTH_SKY_STONE_BLOCK, 'C', ForgeTags.ModTags.FORGE_WOODEN_CHESTS);
             VanillaRecipeHelper.addShapedRecipe(provider, "ae2/network/blocks/inscribers", new ItemStack(AEBlocks.INSCRIBER), "FPF", "FMF", "FPF", 'F', new UnificationEntry(TagPrefix.plate, GTMaterials.Titanium), 'P', GTItems.ELECTRIC_PISTON_EV, 'M', GTMachines.FORMING_PRESS);
             VanillaRecipeHelper.addShapedRecipe(provider, "ae2/network/blocks/spatial_io_port", new ItemStack(AEBlocks.SPATIAL_IO_PORT), "AAA", "BCB", "DED", 'D', new UnificationEntry(TagPrefix.plate, GTMaterials.Titanium), 'A',AEBlocks.QUARTZ_GLASS, 'B', AEParts.GLASS_CABLE, 'C', AEBlocks.IO_PORT, 'E', AEItems.ENGINEERING_PROCESSOR);
+            VanillaRecipeHelper.addShapedRecipe(provider, "ae2/network/wireless_access_point", new ItemStack(AEBlocks.WIRELESS_ACCESS_POINT), "dWw", "SCS", "DGD", 'D', new UnificationEntry(TagPrefix.plateDouble, GTMaterials.Titanium), 'G',AEParts.GLASS_CABLE, 'W', AEItems.WIRELESS_RECEIVER, 'C', AEItems.CALCULATION_PROCESSOR, 'S', new UnificationEntry(TagPrefix.screw, GTMaterials.Titanium));
 
             VanillaRecipeHelper.addShapelessRecipe(provider, "ae2/decorative/quartz_fixture", new ItemStack(AEBlocks.QUARTZ_FIXTURE), "FC", 'F', AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED, 'C', new UnificationEntry(TagPrefix.bolt, GTMaterials.Iron));
 
