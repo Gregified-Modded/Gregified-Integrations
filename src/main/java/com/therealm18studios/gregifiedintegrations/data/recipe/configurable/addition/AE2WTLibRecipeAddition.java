@@ -3,14 +3,12 @@ package com.therealm18studios.gregifiedintegrations.data.recipe.configurable.add
 import appeng.core.definitions.AEBlocks;
 import appeng.core.definitions.AEItems;
 import appeng.core.definitions.AEParts;
-import biomesoplenty.api.block.BOPBlocks;
 import com.gregtechceu.gtceu.api.GTValues;
 import com.gregtechceu.gtceu.api.data.chemical.material.stack.UnificationEntry;
 import com.gregtechceu.gtceu.api.data.tag.TagPrefix;
 import com.gregtechceu.gtceu.common.data.GTItems;
 import com.gregtechceu.gtceu.common.data.GTMaterials;
 import com.gregtechceu.gtceu.common.data.GTRecipeTypes;
-import com.gregtechceu.gtceu.data.recipe.VanillaRecipeHelper;
 import com.therealm18studios.gregifiedintegrations.config.GIConfigHolder;
 import de.mari_023.ae2wtlib.AE2wtlib;
 import net.minecraft.data.recipes.FinishedRecipe;

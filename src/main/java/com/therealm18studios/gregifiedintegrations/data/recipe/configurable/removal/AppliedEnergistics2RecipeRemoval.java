@@ -83,7 +83,7 @@ public class AppliedEnergistics2RecipeRemoval {
         registry.accept(new ResourceLocation("ae2:misc/deconstruction_chiseled_certus_quartz"));
         registry.accept(new ResourceLocation("ae2:misc/deconstruction_cut_certus_quartz_block"));
         registry.accept(new ResourceLocation("ae2:misc/deconstruction_fluix_block"));
-        registry.accept(new ResourceLocation("ae2:misc/deconstruction+smooth_certus_quartz_block"));
+        registry.accept(new ResourceLocation("ae2:misc/deconstruction_smooth_certus_quartz_block"));
         registry.accept(new ResourceLocation("ae2:misc/fluixpearl"));
         registry.accept(new ResourceLocation("ae2:misc/tank_sky_stone"));
         registry.accept(new ResourceLocation("ae2:misc/tiny_tnt"));
